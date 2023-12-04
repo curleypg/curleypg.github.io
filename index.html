@@ -83,6 +83,7 @@
 </style>
 
 <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+<script src="./challenges.js"></script>
 <script type="text/javascript">
 /*jslint browser: true, devel: true */
 /* global $ */
@@ -139,7 +140,7 @@ var bingoGenerator = {
 
     bingoCard: function (title, width, height, freespace, freespaceValue, freespaceSubheadingValue, freespaceRandom, list) {
         "use strict";
-        var possibleSpaces, enoughSpaces, spaces, centerSquare, i, j, output;
+        var possibleSpaces, enoughSpaces, spaces, centerSquare, i, j, output, availableSpaces;
         list = bingoGenerator.escapeHTML(list);
 	    list = bingoGenerator.newlineToBR(list);
         possibleSpaces = bingoGenerator.removeEmptyElements(list.split(","));
@@ -148,12 +149,12 @@ var bingoGenerator = {
         // Option 1: We don't have enough. Include in random placement.
         // Option 2:- We have enough. Overwrite other option.
         enoughSpaces = true;
-        if (possibleSpaces.length < width * height) {
+        if (possibleSpaces.length < (width * height)) {
             enoughSpaces = false;
         }
 
-        // Option 1
-        if (freespace === "true" && freespaceRandom === "true" && !enoughSpaces) {
+        // // Option 1
+        if (freespace === "true" && freespaceRandom === "true" && enoughSpaces === false) {
             possibleSpaces.push(bingoGenerator.formatFreespace(freespaceValue, freespaceSubheadingValue));
         }
 
@@ -164,8 +165,8 @@ var bingoGenerator = {
         // var centerSquare = Math.floor(width*height/2);
         // We'll say center is the center row of the center column
         centerSquare = Math.floor(height / 2) * width + Math.floor(width / 2);
-
-        for (i = 0; i <= width * height; i += 1) {
+        availableSpaces = (freespace === "true" && freespaceRandom === "true" && enoughSpaces === true) ? (width * height) - 1 : width * height;
+        for (i = 0; i <= availableSpaces; i += 1) {
             if (i === centerSquare && freespace === "true" && freespaceRandom === "false") {
                 spaces.push(bingoGenerator.formatFreespace(freespaceValue, freespaceSubheadingValue));
             } else {
@@ -174,16 +175,20 @@ var bingoGenerator = {
         }
 
         // Option 2
-        if (freespace === "true" && freespaceRandom === "true" && enoughSpaces) {
+        if (freespace === "true" && freespaceRandom === "true" && enoughSpaces === true) {
             spaces[Math.floor(Math.random() * spaces.length)] = bingoGenerator.formatFreespace(freespaceValue, freespaceSubheadingValue);
         }
 
         // Output
-        output = '<table><thead><tr><th colspan="' + width + '">' + title + '</th></tr></thead>';
+        output = '<table><thead><tr><th colspan="' + (width + 1) + '">' + title + '</th></tr>';
+        output += '<tr><th></th><th>B</th><th>I</th><th>N</th><th>G</th><th>O</th></tr></thead>';
         output += '<tbody>';
         for (i = 0; i < height; i += 1) {
             output += '<tr>';
             for (j = 0; j < width; j += 1) {
+                if (j === 0) {
+                    output += '<th>' + (i + 1) + '</th>';
+                }
                 output += '<td>' + spaces.shift() + '</td>';
             }
             output += '</tr>';
@@ -203,7 +208,7 @@ var bingoGenerator = {
             spaces += 1;
         }
         if (spaces < $("#width").val() * $("#height").val()) {
-            alert("Warning: you do not have enough possible board options for the size of the board you selected!");
+            alert(`Warning: you do not have enough possible board options(${spaces}) for the size of the board (${$("#width").val() * $("#height").val()}) you selected!`);
         }
 
         // Clear any previous results
@@ -237,7 +242,7 @@ var bingoGenerator = {
                 $("#freespaceValue").val(),
                 $("#freespaceSubheadingValue").val(),
                 $("#freespaceRandom").val(),
-                $("#words").val()
+                challenges
             );
         }
 
@@ -355,55 +360,28 @@ $(document).ready(bingoGenerator.checkQS);
 </script>
 </head>
 <body>
-<h1>Make your own bingo cards</h1>
-<form action="#results" method="get"><!-- onsubmit="generate();return false;" -->
-	<p id="intro">I've provided a sample to create bingo cards for a day in the park. You can enter your own settings to create your own custom bingo cards.</p>
-	<fieldset>
-		<legend>Bingo Card Basics</legend>
-		<label>Card Title <input type="text" name="title" id="title" value="Day in the Park Bingo"></label>
-		<label>Word List (separated by commas)</label><textarea cols="60" rows="8" name="words" id="words">Flowers,Bees,Picnickers,Ants,Little Kid Crying,Holding Hands,Person Napping,A Balloon,Dogs,Frisbee,Stroller,Chess Players,Rollerskates,Musician,Juggler,Photographer,Painter,Plastic Bag in Tree,Squirrel,Pigeon,Bicycle Built for Two,Ice Cream,Sunbather,Person Reading Newspaper,Person Listening to Radio,Sidewalk Chalk,Hopscotch</textarea>
-	</fieldset>	
-
-	<fieldset>
-		<legend>Free Space</legend>
-		<label>Include a free space? 
-			<select name="freespace" id="freespace">
-				<option value="true" selected="selected">Yes</option>
-				<option value="false">No</option>
-			</select>
-		</label>
-		<label>Free Space Text <input type="text" name="freespaceValue" id="freespaceValue" value="Park Bench"></label>
-        <label>Free Space Description <input type="text" name="freespaceSubheadingValue" id="freespaceSubheadingValue" value="Free Space"></label>
-		<label>Free Space Placement
-			<select name="freespaceRandom" id="freespaceRandom">
-				<option value="true">Random</option>
-				<option value="false" selected="selected">Center</option>
-			</select>
-		</label>
-	</fieldset>
-
-	<fieldset>
-		<legend>Card Size</legend>
-		<p>A 5x5 bingo card is traditional, but you can try other sizes</p>
-		<label>Number of Squares Wide <input type="text" name="width" id="width" value="5"></label>
-		<label>Number of Squares Tall <input type="text" name="height" id="height" value="5"></label>
-	</fieldset>
-
-	
-	<fieldset>
-		<legend>Printing Options</legend>
-		<p>Select the <em>landscape</em> page layout when printing for best results</p>
-		<label>Number of cards to create <input type="text" name="number" id="number" value="10"></label>
-	</fieldset>
+<h1>12 Days of Running Roulette</h1>
+<form action="#results" method="get" onsubmit="bingoGenerator.generate();return false;">
+	<fieldset class="working" style="display: none;">
+        <input type="hidden" name="title" id="title" value="12 Days of Running Roulette">
+        <textarea cols="60" rows="8" name="words" id="words">Run for greater than 20 minutes,Run for greater than 60min,Run greater than 90min,Run for > 4km,Run for > 10km,Run > 21.1km,Strava segment top 10,50m elevation gain,100m elevation gain,200m elevation gain,Run clockwise loop,Run counterclockwise loop,Run out-and-back,Run exactly 5.05km or 5.05mi,Progression run,Intervals,Fartlek,Run in park,Trail run,Run in temp greater than 20C,Run in temp less than 0C,Run selfie,Run between 12a-6a local time,5th consecutive run,10th consecutive run,Race,Distance PR,Cross-train,Run with friend,Run in precipitaion</textarea>
+        <input type="hidden" name="freespace" id="freespace" value="true">
+        <input type="hidden" name="freespaceValue" id="freespaceValue" value="Rest day">
+        <input type="hidden" name="freespaceSubheadingValue" id="freespaceSubheadingValue" value="">
+        <input type="hidden" name="freespaceRandom" id="freespaceRandom" value="true">
+        <input type="hidden" name="width" id="width" value="5">
+        <input type="hidden" name="height" id="height" value="5">
+        <input type="hidden" name="width" id="width" value="5">
+        <input type="hidden" name="height" id="height" value="5">
+        <input type="hidden" name="number" id="number" value="1">
+    </fieldset>
 	<label><input type="submit" value="Generate Bingo Cards"></label>
+    <label><input type="submit" value="Print" onclick="print();return false;"></label>
 </form>
-
 
 <div id="results"></div>
 
-<div id="footer">
-<a href="/bingo-card-generator/faq.html">Questions?</a> Comments? Contact chris @ osric . com
-</div>
+<div id="footer"></div>
 
 </body>
 </html>
