@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bingo Card Generator</title>
+<title>Discord Bingo Card Generator</title>
 <style type="text/css">
 	label,input, select {
 		display:block;
@@ -360,13 +360,14 @@ $(document).ready(bingoGenerator.checkQS);
 </script>
 </head>
 <body>
-<h1>12 Days of Running Roulette</h1>
+<h1>Discord 12 Days of Running Roulette</h1>
+<p>Use the button to generate a Bingo card. You may generate a random card until you are happy :) Save, Print, or Screenshot the card to your device for your records. <strong>When you close this browser window the card will be gone forever unless you save it!</strong></strong></p>
 <form action="#results" method="get" onsubmit="bingoGenerator.generate();return false;">
 	<fieldset class="working" style="display: none;">
         <input type="hidden" name="title" id="title" value="12 Days of Running Roulette">
         <textarea cols="60" rows="8" name="words" id="words">Run for greater than 20 minutes,Run for greater than 60min,Run greater than 90min,Run for > 4km,Run for > 10km,Run > 21.1km,Strava segment top 10,50m elevation gain,100m elevation gain,200m elevation gain,Run clockwise loop,Run counterclockwise loop,Run out-and-back,Run exactly 5.05km or 5.05mi,Progression run,Intervals,Fartlek,Run in park,Trail run,Run in temp greater than 20C,Run in temp less than 0C,Run selfie,Run between 12a-6a local time,5th consecutive run,10th consecutive run,Race,Distance PR,Cross-train,Run with friend,Run in precipitaion</textarea>
         <input type="hidden" name="freespace" id="freespace" value="true">
-        <input type="hidden" name="freespaceValue" id="freespaceValue" value="Rest day">
+        <input type="hidden" name="freespaceValue" id="freespaceValue" value="Rest day 😴">
         <input type="hidden" name="freespaceSubheadingValue" id="freespaceSubheadingValue" value="">
         <input type="hidden" name="freespaceRandom" id="freespaceRandom" value="true">
         <input type="hidden" name="width" id="width" value="5">
@@ -375,7 +376,7 @@ $(document).ready(bingoGenerator.checkQS);
         <input type="hidden" name="height" id="height" value="5">
         <input type="hidden" name="number" id="number" value="1">
     </fieldset>
-	<label><input type="submit" value="Generate Bingo Cards"></label>
+	<label><input type="submit" value="Generate Bingo Card"></label>
     <label><input type="submit" value="Print" onclick="print();return false;"></label>
 </form>
 
