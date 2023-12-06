@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Discord Bingo Card Generator</title>
+<title>Discord BINGO Card Generator</title>
 <style type="text/css">
 	label,input, select {
-		display:block;
+		display:inline-block;
 	}
 	input,select {
 		margin-bottom:.5em;
@@ -19,7 +19,6 @@
 		border-collapse:collapse;
 		margin-bottom:1em;
 		margin-right:1em;
-		float:left;
 	}
 	td, th {
 		border:1px solid black;
@@ -38,10 +37,6 @@
 	}
 	.freespace {
 		font-size:smaller;
-	}
-	#footer {
-		border-top:1px solid #ccc;
-		clear:both;
 	}
 
     .daub {
@@ -76,6 +71,12 @@
     }
     .daubImg5 {
         background-image: url(images/daub5.png);
+    }
+
+    @media print {
+        .instructions {
+            display: none;
+        }
     }
 </style>
 <style type="text/css" media="print">
@@ -247,7 +248,7 @@ var bingoGenerator = {
         }
 
         // Jump to results
-        location.href = '#results';
+        // location.href = '';
 
     },
 
@@ -360,29 +361,32 @@ $(document).ready(bingoGenerator.checkQS);
 </script>
 </head>
 <body>
-<h1>Discord 12 Days of Running Roulette</h1>
-<p>Use the button to generate a Bingo card. You may generate a random card until you are happy :) Save, Print, or Screenshot the card to your device for your records. <strong>When you close this browser window the card will be gone forever unless you save it!</strong></strong></p>
-<form action="#results" method="get" onsubmit="bingoGenerator.generate();return false;">
-	<fieldset class="working" style="display: none;">
-        <input type="hidden" name="title" id="title" value="12 Days of Running Roulette">
-        <textarea cols="60" rows="8" name="words" id="words">Run for greater than 20 minutes,Run for greater than 60min,Run greater than 90min,Run for > 4km,Run for > 10km,Run > 21.1km,Strava segment top 10,50m elevation gain,100m elevation gain,200m elevation gain,Run clockwise loop,Run counterclockwise loop,Run out-and-back,Run exactly 5.05km or 5.05mi,Progression run,Intervals,Fartlek,Run in park,Trail run,Run in temp greater than 20C,Run in temp less than 0C,Run selfie,Run between 12a-6a local time,5th consecutive run,10th consecutive run,Race,Distance PR,Cross-train,Run with friend,Run in precipitaion</textarea>
-        <input type="hidden" name="freespace" id="freespace" value="true">
-        <input type="hidden" name="freespaceValue" id="freespaceValue" value="Rest day 😴">
-        <input type="hidden" name="freespaceSubheadingValue" id="freespaceSubheadingValue" value="">
-        <input type="hidden" name="freespaceRandom" id="freespaceRandom" value="true">
-        <input type="hidden" name="width" id="width" value="5">
-        <input type="hidden" name="height" id="height" value="5">
-        <input type="hidden" name="width" id="width" value="5">
-        <input type="hidden" name="height" id="height" value="5">
-        <input type="hidden" name="number" id="number" value="1">
-    </fieldset>
-	<label><input type="submit" value="Generate Bingo Card"></label>
-    <label><input type="submit" value="Print" onclick="print();return false;"></label>
-</form>
+    <div class="instructions">
+        <h1>Discord's 12 Days of Running BINGO</h1>
+        <p>Use the button to generate a Bingo card. You may generate a random card until you are happy :) Save, Print to PDF, or Screenshot the card to your device for your records. <strong>When you close this browser window the card will be gone forever unless you save it!</strong></p>    
+        <p>After you save your BINGO card either <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRz69UsFjrnSPbumXBaBqi0Psv6yJvJ8CjluScg7kS_PCE1w/viewform?usp=sf_link" target="_blank">submit it via Google Form</a> or send it to Event Coordinators in discord.</p>
+        <p>All challenges are listed in <a href="https://docs.google.com/document/d/1hj3VjVyPgEVh-r9Bj2RvXmooXMlCsxYUllbzzv94YQI/edit?usp=sharing" target="_blank">this document</a>.</p>
+        <form action="#results" method="get" onsubmit="bingoGenerator.generate();return false;">
+            <fieldset class="working" style="display: none;">
+                <input type="hidden" name="title" id="title" value="12 Days of Running BINGO">
+                <textarea cols="60" rows="8" name="words" id="words">Run for greater than 20 minutes,Run for greater than 60min,Run greater than 90min,Run for > 4km,Run for > 10km,Run > 21.1km,Strava segment top 10,50m elevation gain,100m elevation gain,200m elevation gain,Run clockwise loop,Run counterclockwise loop,Run out-and-back,Run exactly 5.05km or 5.05mi,Progression run,Intervals,Fartlek,Run in park,Trail run,Run in temp greater than 20C,Run in temp less than 0C,Run selfie,Run between 12a-6a local time,5th consecutive run,10th consecutive run,Race,Distance PR,Cross-train,Run with friend,Run in precipitaion</textarea>
+                <input type="hidden" name="freespace" id="freespace" value="true">
+                <input type="hidden" name="freespaceValue" id="freespaceValue" value="Rest day 😴">
+                <input type="hidden" name="freespaceSubheadingValue" id="freespaceSubheadingValue" value="">
+                <input type="hidden" name="freespaceRandom" id="freespaceRandom" value="true">
+                <input type="hidden" name="width" id="width" value="5">
+                <input type="hidden" name="height" id="height" value="5">
+                <input type="hidden" name="width" id="width" value="5">
+                <input type="hidden" name="height" id="height" value="5">
+                <input type="hidden" name="number" id="number" value="1">
+            </fieldset>
+            <label><input type="submit" value="Generate Bingo Card"></label>
+            <label><input type="submit" value="Print" onclick="print();return false;"></label>
+        </form>
+    </div>
 
-<div id="results"></div>
+    <div id="results"></div>
 
-<div id="footer"></div>
-
+    <div id="footer"></div>
 </body>
 </html>
