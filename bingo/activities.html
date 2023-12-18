@@ -18,6 +18,7 @@
       <select id="user-list" aria-controls="report">
         <option value="">-Select Player-</option>
       </select>
+      <button id='clear'>Clear user</button>
     </section>
     <hr>
     <table id="report" aria-live="polite">
@@ -75,7 +76,7 @@
       challengeEle.innerHTML = activity['Challenge completed']
 
       if (activity['Challenge completed'] === 'Cross-training activity') {
-        additionalEle.innerHTML = 'Additional information.'
+        additionalEle.innerHTML = activity['Additional information.']
       }
       else {
         additionalEle.innerHTML = ''
@@ -106,14 +107,10 @@
       return countEle
     }
 
-    // setup data
-    const userList = getUsers(submissions)
-    updateSelect(userList)
-
-    document.querySelector('#user-list').addEventListener('change', event => {
+    const setupTable = (subs, user) => {
       let tbody = document.querySelector('#report tbody')
       tbody.innerHTML = ''
-      let activities = filterByName(submissions, event.target.value)
+      let activities = filterByName(submissions, user)
 
       activities.forEach(act => {
         let row = createTableRow(act)
@@ -124,8 +121,32 @@
       let count = activities.filter(act => act['Approved'] === 'y').length
 
       tbody.appendChild(createTableCount(count))
+    }
+
+    // setup data
+    const userList = getUsers(submissions)
+    updateSelect(userList)
+
+    document.querySelector('#user-list').addEventListener('change', event => {
+      setupTable(submissions, event.target.value)
+      const currentUrl = new URL(window.location.href);
+      const params = new URLSearchParams(currentUrl.search);
+      params.set('user', event.target.value)
+      window.location.replace(currentUrl.protocol + '//' + currentUrl.host + currentUrl.pathname + '?' + params.toString())
     })
 
+    document.querySelector('#clear').addEventListener('click', event => {
+      window.location.replace(currentUrl.protocol + '//' + currentUrl.host + currentUrl.pathname)
+    })
+
+    const currentUrl = new URL(window.location.href);
+    const params = new URLSearchParams(currentUrl.search);
+    
+    if (params.get('user') !== null && params.get('user') !== '') {
+      let user = params.get('user')
+      document.querySelector('#user-list [value="' + user + '"]').selected = 'selected'
+      setupTable(submissions, user)
+    }
   </script>
 
 </html>

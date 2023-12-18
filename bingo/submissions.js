@@ -615,10 +615,10 @@ const submissions = [
     "Timestamp": "12/12/2023 19:05:27",
     "Discord username": "phantomtofu",
     "Challenge completed": "Run through a park 🛝",
-    "Additional information.": "Having issues with Strava",
-    "Activity date": "lmk if permissions aren't right",
-    "Approved": "12/11/2023",
-    "Who checked": "y"
+    "Additional information.": "Having issues with Strava lmk if permissions aren't right",
+    "Activity date": "12/11/2023",
+    "Approved": "y",
+    "Who checked": "alt"
   },
   {
     "Timestamp": "12/12/2023 20:07:07",
