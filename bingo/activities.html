@@ -1,0 +1,131 @@
+<html>
+  <head>
+    <title>Discord 12 Days of Running challenges completed report</title>
+    <style>
+      .unapproved {
+        background-color: rgba(220, 20, 60, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Discord 12 Days of Running challenges completed report</h1>
+      <p>Submission up to <strong>12/17/2023 10:34:10 EST</strong>.</p>
+      <p>More recent submissions have yet to be reviewed.</p>
+    </section>
+    <section>
+      <label for="user-list">Find your submission report.</label>
+      <select id="user-list" aria-controls="report">
+        <option value="">-Select Player-</option>
+      </select>
+    </section>
+    <hr>
+    <table id="report" aria-live="polite">
+      <thead>
+        <tr>
+          <th>Activity date</th>
+          <th>Challenge completed</th>
+          <th>Additional information</th>
+          <th>Approved</th>
+        </tr>
+      </thead>
+      <tbody>
+  
+      </tbody>
+    </table>
+  </body>
+
+  <script src="./submissions.js"></script>
+  <script>  
+    const getUsers = (subs) => {
+      let users = []
+      subs.forEach(sub => {
+        if (users.indexOf(sub['Discord username']) < 0) {
+          users.push(sub['Discord username'])
+        }
+      })
+
+      return users
+    }
+
+    const updateSelect = (users) => {
+      const select = document.querySelector('#user-list')
+
+      users.forEach(user => {
+        let option = document.createElement('option')
+        option.setAttribute('value', user)
+        option.innerHTML = user
+
+        select.appendChild(option)
+      })
+    }
+
+    const filterByName = (subs, name) => {
+      return subs.filter(sub => sub['Discord username'] === name)
+    }
+
+    const createTableRow = (activity) => {
+      let row = document.createElement('tr')
+      let datetimeEle = document.createElement('td')
+      let challengeEle = document.createElement('td')
+      let additionalEle = document.createElement('td')
+      let approvedEle = document.createElement('td')
+
+      datetimeEle.innerHTML = activity['Activity date']
+      challengeEle.innerHTML = activity['Challenge completed']
+
+      if (activity['Challenge completed'] === 'Cross-training activity') {
+        additionalEle.innerHTML = 'Additional information.'
+      }
+      else {
+        additionalEle.innerHTML = ''
+      }
+
+      if (activity['Approved'] === 'y') {
+        approvedEle.innerHTML = '✅'
+      } else {
+        approvedEle.innerHTML = '❌'
+        row.setAttribute('class', 'unapproved')
+      }
+
+      row.appendChild(datetimeEle)
+      row.appendChild(challengeEle)
+      row.appendChild(additionalEle)
+      row.appendChild(approvedEle)
+
+      return row
+    }
+
+    const createTableCount = (count) => {
+      let row = document.createElement('tr')
+      let countEle = document.createElement('td')
+      countEle.setAttribute('colspan', 4)
+
+      countEle.innerHTML = '<strong>' + count + ' challenges completed.<strong>'
+
+      return countEle
+    }
+
+    // setup data
+    const userList = getUsers(submissions)
+    updateSelect(userList)
+
+    document.querySelector('#user-list').addEventListener('change', event => {
+      let tbody = document.querySelector('#report tbody')
+      tbody.innerHTML = ''
+      let activities = filterByName(submissions, event.target.value)
+
+      activities.forEach(act => {
+        let row = createTableRow(act)
+
+        tbody.appendChild(row)
+      })
+
+      let count = activities.filter(act => act['Approved'] === 'y').length
+
+      tbody.appendChild(createTableCount(count))
+    })
+
+  </script>
+
+</html>
