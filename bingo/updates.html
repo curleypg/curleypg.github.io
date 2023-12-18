@@ -1,0 +1,17 @@
+<html>
+  <body>
+    
+  </body>
+  <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+  <script>
+    const ok = Papa.parse('/submissions.csv', {
+      delimiter: ",",
+      complete: function(results, file) {
+        console.log(results, file)
+        
+        return results
+      }
+    })
+    
+  </script>
+</html>
