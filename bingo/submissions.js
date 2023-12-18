@@ -1233,20 +1233,20 @@ const submissions = [
     "Timestamp": "12/18/2023 9:45:49",
     "Discord username": "Walter Yensid",
     "Challenge completed": "Run through a park 🛝",
-    "Additional information.": "Park resend",
-    "Activity date": "I ran into a tree in the park 😭😭😭😭 icing rn",
-    "Approved": "12/17/2023",
-    "Who checked": "y",
+    "Additional information.": "Park resend. I ran into a tree in the park 😭😭😭😭 icing rn",
+    "Activity date": "12/17/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
     "Public comment": ""
   },
   {
     "Timestamp": "12/18/2023 9:46:52",
     "Discord username": "Walter Yensid",
     "Challenge completed": "Counterclockwise loop",
-    "Additional information.": "Counterclockwise",
-    "Activity date": "I did counterclockwise before but it derped so here is the makeup",
-    "Approved": "12/17/2023",
-    "Who checked": "y",
+    "Additional information.": "Counterclockwise. I did counterclockwise before but it derped so here is the makeup",
+    "Activity date": "12/17/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
     "Public comment": ""
   },
   {
