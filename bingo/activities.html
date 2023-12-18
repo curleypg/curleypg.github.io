@@ -61,7 +61,7 @@
     }
 
     const filterByName = (subs, name) => {
-      return subs.filter(sub => sub['Discord username'] === name)
+      return subs.filter(sub => sub['Discord username'] === name && sub['Approved'] !== '')
     }
 
     const createTableRow = (activity) => {
