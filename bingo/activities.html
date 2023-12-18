@@ -37,7 +37,7 @@
   <body>
     <section>
       <h1>Discord 12 Days of Running challenges completed report</h1>
-      <p>Reviewed submissions up to <strong>12/18/2023 12:45:57 EST</strong>.</p>
+      <p>Reviewed submissions up to <strong><time id='update'></time>&nbsp;EST</strong>.</p>
       <p>More recent submissions have yet to be reviewed.</p>
     </section>
     <section id="report-section">
@@ -160,8 +160,13 @@
       document.querySelector('#report-section').style.display = 'block'
     }
 
-    // setup data
+    const updateTime = (subs) => {
+      const lastSubmission = subs.filter(sub => sub['Approved'] !== '').pop()
+      document.querySelector('#update').innerHTML = lastSubmission['Timestamp']
+    }
+
     const userList = getUsers(submissions)
+    updateTime(submissions)
     updateSelect(userList)
 
     document.querySelector('#user-list').addEventListener('change', event => {
@@ -188,5 +193,4 @@
       document.querySelector('#user-list').focus()
     }
   </script>
-
 </html>
