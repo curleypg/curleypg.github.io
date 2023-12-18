@@ -1288,5 +1288,15 @@ const submissions = [
     "Approved": "y",
     "Who checked": "nonesuch",
     "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2023 12:45:57",
+    "Discord username": "ossgeek",
+    "Challenge completed": "Strava Segment Top 10 🔟",
+    "Additional information.": "Segment link https://www.strava.com/segments/30823732",
+    "Activity date": "12/18/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
   }
 ]
