@@ -1,6 +1,9 @@
 <!DOCTYPE html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
     <title>Discord 12 Days of Running challenges completed report</title>
     <style>
       .unapproved {
@@ -10,12 +13,31 @@
       #report-section {
         display: none;
       }
+
+      /* Format tables */
+      table {
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+      }
+
+      td,
+      th {
+        border: 1px solid gray;
+        text-align: start;
+        padding: 0.5rem;
+      }
+
+      th {
+        background-color: aliceblue;
+        font-weight: bold;
+      }
+
     </style>
   </head>
   <body>
     <section>
       <h1>Discord 12 Days of Running challenges completed report</h1>
-      <p>Submission up to <strong>12/17/2023 10:34:10 EST</strong>.</p>
+      <p>Reviewed submissions up to <strong>12/18/2023 11:07:17 EST</strong>.</p>
       <p>More recent submissions have yet to be reviewed.</p>
     </section>
     <section id="report-section">
@@ -30,8 +52,9 @@
           <tr>
             <th>Activity date</th>
             <th>Challenge completed</th>
-            <th>Additional information</th>
+            <th>Additional Info</th>
             <th>Approved</th>
+            <th>Event Coordinator Notes</th>
           </tr>
         </thead>
         <tbody>
@@ -46,12 +69,15 @@
     const getUsers = (subs) => {
       let users = []
       subs.forEach(sub => {
-        if (users.indexOf(sub['Discord username']) < 0) {
-          users.push(sub['Discord username'])
+        if (users.map(u => u.key).indexOf(sub['Discord username'].toLowerCase()) < 0) {
+          users.push({
+            key: sub['Discord username'].toLowerCase(),
+            value: sub['Discord username'],
+          })
         }
       })
 
-      return users
+      return users.sort((a, b) => a.key > b.key)
     }
 
     const updateSelect = (users) => {
@@ -59,15 +85,15 @@
 
       users.forEach(user => {
         let option = document.createElement('option')
-        option.setAttribute('value', user)
-        option.innerHTML = user
+        option.setAttribute('value', user.key)
+        option.innerHTML = user.value
 
         select.appendChild(option)
       })
     }
 
     const filterByName = (subs, name) => {
-      return subs.filter(sub => sub['Discord username'] === name && sub['Approved'] !== '')
+      return subs.filter(sub => sub['Discord username'].toLowerCase() === name && sub['Approved'] !== '')
     }
 
     const createTableRow = (activity) => {
@@ -76,6 +102,8 @@
       let challengeEle = document.createElement('td')
       let additionalEle = document.createElement('td')
       let approvedEle = document.createElement('td')
+      let ecNotesEle = document.createElement('td')
+
 
       datetimeEle.innerHTML = activity['Activity date']
       challengeEle.innerHTML = activity['Challenge completed']
@@ -91,6 +119,7 @@
         approvedEle.innerHTML = '✅'
       } else {
         approvedEle.innerHTML = '❌'
+        ecNotesEle.innerHTML = activity['Public comment']
         row.setAttribute('class', 'unapproved')
       }
 
@@ -98,6 +127,7 @@
       row.appendChild(challengeEle)
       row.appendChild(additionalEle)
       row.appendChild(approvedEle)
+      row.appendChild(ecNotesEle)
 
       return row
     }
@@ -105,7 +135,7 @@
     const createTableCount = (count) => {
       let row = document.createElement('tr')
       let countEle = document.createElement('td')
-      countEle.setAttribute('colspan', 4)
+      countEle.setAttribute('colspan', document.querySelectorAll('table thead th').length)
 
       countEle.innerHTML = '<strong>' + count + ' challenges completed.<strong>'
 
@@ -149,8 +179,8 @@
     const params = new URLSearchParams(currentUrl.search);
     
     if (params.get('user') !== null && params.get('user') !== '') {
-      let user = params.get('user')
-      document.querySelector('#user-list [value="' + user + '"]').selected = 'selected'
+      let user = params.get('user').toLowerCase()
+      document.querySelector('#user-list [value="' + user.toLowerCase() + '"]').selected = 'selected'
       setupTable(submissions, user)
       document.querySelector('#user-list').focus()
     } else {

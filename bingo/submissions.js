@@ -6,7 +6,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 5:01:07",
@@ -15,7 +16,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 6:51:52",
@@ -24,7 +26,8 @@ const submissions = [
     "Additional information.": "Giraffe :)",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 7:31:31",
@@ -33,7 +36,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 11:07:07",
@@ -42,7 +46,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 12:14:31",
@@ -51,7 +56,8 @@ const submissions = [
     "Additional information.": "B3: Snowing today!",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 12:15:06",
@@ -60,7 +66,8 @@ const submissions = [
     "Additional information.": "New York (the state)",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 13:26:14",
@@ -69,7 +76,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 13:57:43",
@@ -78,7 +86,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 14:21:33",
@@ -87,7 +96,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 15:16:06",
@@ -96,7 +106,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 16:19:25",
@@ -105,7 +116,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 18:40:55",
@@ -114,7 +126,8 @@ const submissions = [
     "Additional information.": "N3 for Cross-Training (Hiking for stamina training with heavy backpack thru National Park)",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 21:17:44",
@@ -123,7 +136,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 22:02:21",
@@ -132,7 +146,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/8/2023 23:16:25",
@@ -141,16 +156,18 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 0:31:49",
-    "Discord username": "N0mz",
+    "Discord username": "Nomz",
     "Challenge completed": "Cross-training activity",
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 1:40:23",
@@ -159,7 +176,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 4:10:19",
@@ -168,7 +186,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 6:25:20",
@@ -177,7 +196,8 @@ const submissions = [
     "Additional information.": "Running before sunrise  w no street lights in a place I'm not from was a bad idea 😂😂",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 7:26:57",
@@ -186,7 +206,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 7:55:44",
@@ -195,7 +216,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 9:59:20",
@@ -204,7 +226,8 @@ const submissions = [
     "Additional information.": "G1",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 11:30:04",
@@ -213,7 +236,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 14:25:52",
@@ -222,7 +246,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 16:09:01",
@@ -231,7 +256,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/8/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 16:10:40",
@@ -240,7 +266,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 16:28:23",
@@ -249,7 +276,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 16:47:09",
@@ -258,7 +286,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 18:36:39",
@@ -267,7 +296,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 20:37:21",
@@ -276,7 +306,8 @@ const submissions = [
     "Additional information.": "dm me if you need the unfiltered map",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 20:39:28",
@@ -285,7 +316,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/9/2023 20:44:49",
@@ -294,7 +326,8 @@ const submissions = [
     "Additional information.": "please change this from the selfie one",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/10/2023 3:56:19",
@@ -303,7 +336,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/10/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/10/2023 7:47:36",
@@ -312,7 +346,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/10/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/10/2023 11:02:55",
@@ -321,7 +356,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/10/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/10/2023 11:33:09",
@@ -330,7 +366,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/10/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/10/2023 12:29:03",
@@ -339,7 +376,8 @@ const submissions = [
     "Additional information.": "parker valby holiday mile event race (elite section)",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/10/2023 12:47:40",
@@ -348,7 +386,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/10/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/10/2023 13:09:25",
@@ -357,7 +396,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/10/2024",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/10/2023 15:51:44",
@@ -366,7 +406,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/10/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/10/2023 18:51:12",
@@ -375,7 +416,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/10/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/10/2023 19:00:32",
@@ -384,7 +426,8 @@ const submissions = [
     "Additional information.": "For B5 square",
     "Activity date": "12/10/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 0:18:35",
@@ -393,7 +436,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/9/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 0:26:39",
@@ -402,7 +446,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/10/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 3:30:41",
@@ -411,7 +456,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/11/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 8:10:08",
@@ -420,16 +466,18 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/11/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 8:12:03",
-    "Discord username": "meicci",
+    "Discord username": "mricci",
     "Challenge completed": "Cross-training activity",
     "Additional information.": "",
     "Activity date": "12/11/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 10:46:01",
@@ -438,7 +486,8 @@ const submissions = [
     "Additional information.": "I3",
     "Activity date": "12/11/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 11:04:09",
@@ -447,7 +496,8 @@ const submissions = [
     "Additional information.": "My poor feet lol I had to wait till some sun was out cuz it was too slippery in the morning 💀",
     "Activity date": "12/11/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 12:36:15",
@@ -456,7 +506,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/10/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 12:38:27",
@@ -465,7 +516,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/11/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 16:18:49",
@@ -474,7 +526,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/11/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 19:07:24",
@@ -483,7 +536,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/11/2024",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 19:18:12",
@@ -492,7 +546,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/11/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 20:34:18",
@@ -501,7 +556,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/11/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 22:03:47",
@@ -510,7 +566,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/11/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/11/2023 23:37:25",
@@ -519,7 +576,8 @@ const submissions = [
     "Additional information.": "it was cold",
     "Activity date": "12/11/2023",
     "Approved": "n",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": "no evidence it was 32F/0C in player location"
   },
   {
     "Timestamp": "12/12/2023 3:47:31",
@@ -528,7 +586,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/12/2023 7:52:12",
@@ -537,7 +596,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/12/2023 13:28:44",
@@ -546,7 +606,8 @@ const submissions = [
     "Additional information.": "N3 Crosstraining",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/12/2023 15:36:48",
@@ -555,7 +616,8 @@ const submissions = [
     "Additional information.": "Track",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": "not clear if track. it's fine this user is weird"
   },
   {
     "Timestamp": "12/12/2023 15:39:10",
@@ -564,7 +626,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/12/2023 16:18:30",
@@ -573,7 +636,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/12/2023 16:26:29",
@@ -582,7 +646,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/12/2024",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/12/2023 18:05:00",
@@ -591,7 +656,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/12/2023 18:31:06",
@@ -600,7 +666,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/12/2023 18:33:27",
@@ -609,7 +676,8 @@ const submissions = [
     "Additional information.": "I went from Publix to my friends house which is point to point",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/12/2023 19:05:27",
@@ -618,7 +686,8 @@ const submissions = [
     "Additional information.": "Having issues with Strava lmk if permissions aren't right",
     "Activity date": "12/11/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/12/2023 20:07:07",
@@ -627,7 +696,8 @@ const submissions = [
     "Additional information.": "Wearing an Ugly Christmas sweater made it too hot! Lol",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/12/2023 20:57:20",
@@ -636,7 +706,8 @@ const submissions = [
     "Additional information.": "B4",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/13/2023 3:56:02",
@@ -645,7 +716,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/13/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/13/2023 7:33:52",
@@ -654,7 +726,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/13/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/13/2023 13:41:02",
@@ -663,7 +736,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/13/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/13/2023 14:14:02",
@@ -672,7 +746,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/13/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/13/2023 16:00:38",
@@ -681,7 +756,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/13/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/13/2023 16:04:28",
@@ -690,7 +766,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/13/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/13/2023 22:59:59",
@@ -699,7 +776,8 @@ const submissions = [
     "Additional information.": "Ran with my running club ! Only 8 others showed :(",
     "Activity date": "12/13/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 3:26:45",
@@ -708,7 +786,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/14/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 7:51:53",
@@ -717,7 +796,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/14/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 8:13:21",
@@ -726,7 +806,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 10:42:29",
@@ -735,7 +816,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/13/2023",
     "Approved": "n",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": "Link is not working. Event coordinator can not review"
   },
   {
     "Timestamp": "12/14/2023 10:48:52",
@@ -744,7 +826,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/10/2023",
     "Approved": "n",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": "Link is not working. Event coordinator can not review"
   },
   {
     "Timestamp": "12/14/2023 11:01:27",
@@ -753,7 +836,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/12/2023",
     "Approved": "n",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": "Link is not working. Event coordinator can not review"
   },
   {
     "Timestamp": "12/14/2023 11:21:06",
@@ -762,7 +846,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/14/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 13:49:29",
@@ -771,7 +856,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/14/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 15:39:06",
@@ -780,7 +866,8 @@ const submissions = [
     "Additional information.": "B4",
     "Activity date": "12/12/2024",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 17:33:01",
@@ -789,7 +876,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/14/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 20:00:46",
@@ -797,8 +885,9 @@ const submissions = [
     "Challenge completed": "7th consecutive day",
     "Additional information.": "Technically did the counterclockwise only challenge but I think my Strava gps was lost/my watch was bugging due to it being under a glove. It did pause itself a few times so wouldn't shock me. I'll also send a screenshot to nonesuch :/",
     "Activity date": "12/14/2023",
-    "Approved": "n",
-    "Who checked": "alt"
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 22:07:22",
@@ -807,7 +896,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/13/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 22:59:20",
@@ -816,7 +906,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/14/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/15/2023 7:06:46",
@@ -825,7 +916,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/14/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/15/2023 7:31:58",
@@ -834,7 +926,8 @@ const submissions = [
     "Additional information.": "Double bridge on main road leading to the lake and then when cutting back towards the lake a metal footbridge over the river to the footpath.",
     "Activity date": "12/15/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/15/2023 7:47:25",
@@ -843,7 +936,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/15/2023",
     "Approved": "y",
-    "Who checked": "alt"
+    "Who checked": "alt",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/15/2023 11:29:47",
@@ -852,7 +946,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/12/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/15/2023 11:30:12",
@@ -861,7 +956,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/13/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/15/2023 11:31:00",
@@ -870,7 +966,8 @@ const submissions = [
     "Additional information.": "I5",
     "Activity date": "12/13/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/15/2023 11:31:26",
@@ -879,7 +976,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/14/2023",
     "Approved": "n",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": "Must be a run."
   },
   {
     "Timestamp": "12/15/2023 11:31:49",
@@ -888,7 +986,8 @@ const submissions = [
     "Additional information.": "N1",
     "Activity date": "12/14/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/15/2023 16:39:44",
@@ -897,7 +996,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/15/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/15/2023 17:07:28",
@@ -906,7 +1006,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/15/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/15/2023 21:21:23",
@@ -915,7 +1016,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/15/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/15/2023 21:25:32",
@@ -924,7 +1026,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/15/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/16/2023 8:00:18",
@@ -933,7 +1036,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/16/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/16/2023 8:25:08",
@@ -942,7 +1046,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/16/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/16/2023 10:57:11",
@@ -951,7 +1056,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/16/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/16/2023 12:41:25",
@@ -960,7 +1066,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/16/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/16/2023 12:46:46",
@@ -969,7 +1076,8 @@ const submissions = [
     "Additional information.": "https://www.strava.com/activities/10390188601",
     "Activity date": "12/16/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/16/2023 12:47:26",
@@ -978,7 +1086,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/16/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/16/2023 13:00:29",
@@ -987,7 +1096,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/16/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/16/2023 13:55:30",
@@ -996,7 +1106,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/16/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/16/2023 14:47:58",
@@ -1005,7 +1116,8 @@ const submissions = [
     "Additional information.": "O3",
     "Activity date": "12/15/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/16/2023 14:49:04",
@@ -1014,7 +1126,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/15/2023",
     "Approved": "n",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": "Do not see a run on 12/15"
   },
   {
     "Timestamp": "12/16/2023 15:13:36",
@@ -1023,7 +1136,8 @@ const submissions = [
     "Additional information.": "A Person doing some unknown Martial Arts Kick.",
     "Activity date": "12/16/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/16/2023 21:01:03",
@@ -1032,7 +1146,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/16/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/16/2023 23:51:45",
@@ -1041,7 +1156,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/16/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/17/2023 5:11:08",
@@ -1050,7 +1166,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/17/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/17/2023 8:44:26",
@@ -1059,7 +1176,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/17/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/17/2023 10:34:10",
@@ -1068,25 +1186,8 @@ const submissions = [
     "Additional information.": "",
     "Activity date": "12/17/2023",
     "Approved": "y",
-    "Who checked": "nonesuch"
-  },
-  {
-    "Timestamp": "12/17/2023 14:24:39",
-    "Discord username": "Walter Yensid",
-    "Challenge completed": "Counterclockwise loop",
-    "Additional information.": "I did counterclockwise before but it derped so here is the makeup",
-    "Activity date": "12/17/2023",
-    "Approved": "",
-    "Who checked": ""
-  },
-  {
-    "Timestamp": "12/17/2023 14:25:56",
-    "Discord username": "Walter Yensid",
-    "Challenge completed": "Run through a park 🛝",
-    "Additional information.": "I ran into a tree in the park 😭😭😭😭 icing rn",
-    "Activity date": "12/17/2023",
-    "Approved": "",
-    "Who checked": ""
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/17/2023 14:46:57",
@@ -1094,8 +1195,9 @@ const submissions = [
     "Challenge completed": "3rd consecutive day",
     "Additional information.": "",
     "Activity date": "12/17/2023",
-    "Approved": "",
-    "Who checked": ""
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/17/2023 17:31:07",
@@ -1103,8 +1205,9 @@ const submissions = [
     "Challenge completed": "Sunset run 🌇",
     "Additional information.": "",
     "Activity date": "12/17/2023",
-    "Approved": "",
-    "Who checked": ""
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/17/2023 18:11:05",
@@ -1112,8 +1215,9 @@ const submissions = [
     "Challenge completed": "Treadmill run",
     "Additional information.": "",
     "Activity date": "12/17/2023",
-    "Approved": "",
-    "Who checked": ""
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/17/2023 21:10:22",
@@ -1121,7 +1225,68 @@ const submissions = [
     "Challenge completed": "Cross-training activity",
     "Additional information.": "",
     "Activity date": "12/17/2023",
-    "Approved": "",
-    "Who checked": ""
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2023 9:45:49",
+    "Discord username": "Walter Yensid",
+    "Challenge completed": "Run through a park 🛝",
+    "Additional information.": "Park resend",
+    "Activity date": "I ran into a tree in the park 😭😭😭😭 icing rn",
+    "Approved": "12/17/2023",
+    "Who checked": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2023 9:46:52",
+    "Discord username": "Walter Yensid",
+    "Challenge completed": "Counterclockwise loop",
+    "Additional information.": "Counterclockwise",
+    "Activity date": "I did counterclockwise before but it derped so here is the makeup",
+    "Approved": "12/17/2023",
+    "Who checked": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2023 10:00:26",
+    "Discord username": "White667",
+    "Challenge completed": "Treadmill run",
+    "Additional information.": "",
+    "Activity date": "12/13/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2023 10:03:08",
+    "Discord username": "mricci",
+    "Challenge completed": "Cross-training activity",
+    "Additional information.": "Tracked a strength training workout with Garmin and synced it to Strava",
+    "Activity date": "12/11/2023",
+    "Approved": "n",
+    "Who checked": "nonesuch",
+    "Public comment": "Duplicate."
+  },
+  {
+    "Timestamp": "12/18/2023 10:13:59",
+    "Discord username": "White667",
+    "Challenge completed": "Cross-training activity",
+    "Additional information.": "",
+    "Activity date": "12/11/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2023 11:07:17",
+    "Discord username": "ElVishalo",
+    "Challenge completed": "At least 5km",
+    "Additional information.": "",
+    "Activity date": "12/18/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
   }
 ]
