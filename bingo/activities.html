@@ -6,6 +6,21 @@
     <meta http-equiv="pragma" content="no-cache" />
     <title>Discord 12 Days of Running challenges completed report</title>
     <style>
+      header {
+        box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        display: inline-block;
+        margin-right: 0.5rem;
+      }
+
       .unapproved {
         background-color: rgba(220, 20, 60, 0.2);
       }
@@ -35,33 +50,49 @@
     </style>
   </head>
   <body>
-    <section>
-      <h1>Discord 12 Days of Running challenges completed report</h1>
-      <p>Reviewed submissions up to <strong><time id='update'></time>&nbsp;EST</strong>.</p>
-      <p>More recent submissions have yet to be reviewed.</p>
-    </section>
-    <section id="report-section">
-      <label for="user-list">Find your submission report.</label>
-      <select id="user-list" aria-controls="report">
-        <option value="">-Select Player-</option>
-      </select>
-      <button id='clear'>Clear user</button>
-      <hr>
-      <table id="report" aria-live="polite">
-        <thead>
-          <tr>
-            <th>Activity date</th>
-            <th>Challenge completed</th>
-            <th>Additional Info</th>
-            <th>Approved</th>
-            <th>Event Coordinator Notes</th>
-          </tr>
-        </thead>
-        <tbody>
-    
-        </tbody>
-      </table>
-    </section>
+    <header>
+      <ul role="menubar">
+        <li role="menu-item">
+          <a href="/">Create Card</a>
+        </li>
+        <li role="menu-item">
+          <a href="/activities.html">Activities</a>
+        </li>
+        <li role="menu-item">
+          <a href="/stats.html">Stats</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <h1>Discord 12 Days of Running challenges completed report</h1>
+        <p>Reviewed submissions up to <strong><time id='update'></time>&nbsp;EST</strong>.</p>
+        <p>More recent submissions have yet to be reviewed.</p>
+      </section>
+      <section id="report-section">
+        <label for="user-list">Find your submission report.</label>
+        <select id="user-list" aria-controls="report">
+          <option value="">-Select Player-</option>
+        </select>
+        <button id='clear'>Clear user</button>
+        <hr>
+        <table id="report" aria-live="polite">
+          <thead>
+            <tr>
+              <th>Activity date</th>
+              <th>Challenge completed</th>
+              <th>Additional Info</th>
+              <th>Approved</th>
+              <th>Event Coordinator Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+      
+          </tbody>
+        </table>
+      </section>
+    </main>
+
   </body>
 
   <script src="./submissions.js"></script>

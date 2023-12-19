@@ -5,6 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Discord BINGO Card Generator</title>
 <style type="text/css">
+    header {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+    }
+
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    li {
+    display: inline-block;
+    margin-right: 0.5rem;
+    }
 	label,input, select {
 		display:inline-block;
 	}
@@ -361,7 +375,21 @@ $(document).ready(bingoGenerator.checkQS);
 </script>
 </head>
 <body>
-    <div class="instructions">
+  <header>
+    <ul role="menubar">
+        <li role="menu-item">
+        <a href="/">Create Card</a>
+        </li>
+        <li role="menu-item">
+        <a href="/activities.html">Activities</a>
+        </li>
+        <li role="menu-item">
+        <a href="/stats.html">Stats</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <div class="instructions">
         <h1>Discord's 12 Days of Running BINGO</h1>
         <p>Use the button to generate a Bingo card. You may generate a random card until you are happy :) Save, Print to PDF, or Screenshot the card to your device for your records. <strong>When you close this browser window the card will be gone forever unless you save it!</strong></p>    
         <p>After you save your BINGO card either <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRz69UsFjrnSPbumXBaBqi0Psv6yJvJ8CjluScg7kS_PCE1w/viewform?usp=sf_link" target="_blank">submit it via Google Form</a> or send it to Event Coordinators in discord.</p>
@@ -383,10 +411,11 @@ $(document).ready(bingoGenerator.checkQS);
             <label><input type="submit" value="Generate Bingo Card"></label>
             <label><input type="submit" value="Print" onclick="print();return false;"></label>
         </form>
-    </div>
+      </div>
 
-    <div id="results"></div>
+      <div id="results"></div>
 
-    <div id="footer"></div>
+      <div id="footer"></div>
+    </main>
 </body>
 </html>

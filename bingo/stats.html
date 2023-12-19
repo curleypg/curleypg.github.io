@@ -10,25 +10,56 @@
         stroke: gray;
         stroke-opacity: 0.2;
       }
+
+      header {
+        box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        display: inline-block;
+        margin-right: 0.5rem;
+      }
+
     </style>
   </head>
   <body>
-    <section>
-      <h2>Total players</h2>
-      <div id="players-count"></div>
-    </section>
-    <section>
-      <h2>Total challenges completed</h2>
-      <div id="challenge-count"></div>
-    </section>
-    <section>
-      <h2>Challenge type frequency</h2>
-      <div id="challenge-frequency"></div>
-    </section>
-    <section>
-      <h2>Dates of activities</h2>
-      <div id="date-frequency"></div>
-    </section>
+    <header>
+      <ul role="menubar">
+        <li role="menu-item">
+          <a href="/">Create Card</a>
+        </li>
+        <li role="menu-item">
+          <a href="/activities.html">Activities</a>
+        </li>
+        <li role="menu-item">
+          <a href="/stats.html">Stats</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <h2>Total players</h2>
+        <div id="players-count"></div>
+      </section>
+      <section>
+        <h2>Total challenges completed</h2>
+        <div id="challenge-count"></div>
+      </section>
+      <section>
+        <h2>Challenge type frequency</h2>
+        <div id="challenge-frequency"></div>
+      </section>
+      <section>
+        <h2>Dates of activities</h2>
+        <div id="date-frequency"></div>
+      </section>
+    </main>
   </body>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
