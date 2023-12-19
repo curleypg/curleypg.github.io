@@ -394,7 +394,7 @@ const submissions = [
     "Discord username": "Ethan",
     "Challenge completed": "3rd consecutive day",
     "Additional information.": "",
-    "Activity date": "12/10/2024",
+    "Activity date": "12/10/2023",
     "Approved": "y",
     "Who checked": "nonesuch",
     "Public comment": ""
@@ -534,7 +534,7 @@ const submissions = [
     "Discord username": "Ethan",
     "Challenge completed": "Intervals workout",
     "Additional information.": "",
-    "Activity date": "12/11/2024",
+    "Activity date": "12/11/2023",
     "Approved": "y",
     "Who checked": "alt",
     "Public comment": ""
@@ -644,7 +644,7 @@ const submissions = [
     "Discord username": "Ethan",
     "Challenge completed": "Counterclockwise loop",
     "Additional information.": "",
-    "Activity date": "12/12/2024",
+    "Activity date": "12/12/2023",
     "Approved": "y",
     "Who checked": "alt",
     "Public comment": ""
@@ -864,7 +864,7 @@ const submissions = [
     "Discord username": "Ethan",
     "Challenge completed": "Cross-training activity",
     "Additional information.": "B4",
-    "Activity date": "12/12/2024",
+    "Activity date": "12/12/2023",
     "Approved": "y",
     "Who checked": "alt",
     "Public comment": ""

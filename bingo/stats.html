@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>Discord 12 Days of Running challenges completed report</title>
+    <style>
+      .grid-lines line {
+        stroke: gray;
+        stroke-opacity: 0.2;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="challenge-frequency"></section>
+    <section id="date-frequency"></section>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script src="./submissions.js"></script>
+  <script src="./challenges.js"></script>
+  <script>  
+    let challengeDomain = challenges.split(',\n').map(c => c.trim())
+    let data = challengeDomain.map(c => {
+      return {
+        challenge: c,
+        count: 0
+      }
+    })
+
+    let dataDate = submissions.reduce((acc, curr) => {
+      let date = new Date(curr['Activity date']);
+      date.setUTCHours(0)
+      let dateFormat = date.toISOString()
+
+      if (acc.filter(a => a.date === dateFormat).length === 0) {
+        acc.push({
+          date: dateFormat,
+          count: 1
+        })
+      }
+      else {
+        let counting = acc.filter(a => a.date === dateFormat).pop()
+        counting.count += 1
+      }
+
+      return acc
+    }, [])
+
+    submissions.forEach(sub => {
+      let dataCount = data.filter(d => d.challenge === sub['Challenge completed']).pop()
+      if (dataCount) {
+        dataCount.count += 1
+      }
+    })
+
+    const highestCount = data.reduce((accumulator, current) => {
+      return current.count > accumulator ? current.count : accumulator
+    }, 0)
+    
+    const highestCountDate = dataDate.reduce((accumulator, current) => {
+      return current.count > accumulator ? current.count : accumulator
+    }, 0)
+    
+    const width = 1080;
+    const height = 840;
+    const marginTop = 20;
+    const marginRight = 20;
+    const marginBottom = 250;
+    const marginLeft = 40;
+
+    const createChallengeFrequency = () => {
+      const x = d3
+        .scaleBand()
+        .domain(challengeDomain)
+        .range([marginLeft, width - marginRight])
+        .padding(0.1)
+
+      const y = d3.scaleLinear()
+          .domain([0, highestCount + 1])
+          .range([height - marginBottom, marginTop]);
+
+      const xGrid = (g) => g
+        .attr('class', 'grid-lines')
+        .attr('class', 'grid-lines')
+        .selectAll('line')
+        .data(y.ticks(highestCountDate))
+        .join('line')
+        .attr('y1', d => y(d))
+        .attr('y2', d => y(d))
+        .attr('x1', marginTop)
+        .attr('x2', width - marginRight)
+
+      const svg = d3.create("svg")
+          .attr("width", width)
+          .attr("height", height)
+          .attr('aria-label', 'Chart of completed challenge frequency.')
+
+      svg
+        .append('g')
+          .attr('fill', 'steelblue')
+        .selectAll()
+        .data(data)
+        .join('rect')
+          .attr('x', d => x(d.challenge))
+          .attr('y', d => y(d.count))
+          .attr('height', d => y(0) - y(d.count))
+          .attr('width', x.bandwidth())
+
+      svg.append("g")
+          .attr("transform", `translate(0,${height - marginBottom})`)
+          .call(d3.axisBottom(x))
+          .selectAll('text')
+            .style('text-anchor', 'end')
+            .attr('dx', '-0.8em')
+            .attr('dy', '0.15em')
+            .attr('transform', 'rotate(-60 0 0)')
+
+      svg.append("g")
+          .attr("transform", `translate(${marginLeft},0)`)
+          .call(d3.axisLeft(y).ticks(highestCount + 1))
+
+      svg.append('g')
+        .call(xGrid)
+
+      return svg
+    }
+
+    const createDailySubmissions = () => {
+      const x = d3
+        .scaleUtc()
+        .domain([new Date('2023-12-08'), new Date('2023-12-19')])
+        .range([marginLeft, width - marginRight])
+
+      const y = d3.scaleLinear()
+        .domain([0, highestCountDate + 1])
+        .range([height - marginBottom, marginTop])
+
+      const xGrid = (g) => g
+        .attr('class', 'grid-lines')
+        .attr('class', 'grid-lines')
+        .selectAll('line')
+        .data(y.ticks(highestCountDate))
+        .join('line')
+        .attr('y1', d => y(d))
+        .attr('y2', d => y(d))
+        .attr('x1', marginTop)
+        .attr('x2', width - marginRight)
+
+      const svg = d3.create("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .attr('aria-label', 'Chart of completed challenge frequency by date.')
+
+      svg
+        .append('g')
+          .attr('fill', 'steelblue')
+        .selectAll()
+        .data(dataDate)
+        .join('rect')
+          .attr('x', d => x(new Date(d.date)))
+          .attr('y', d => y(d.count))
+          .attr('height', d => y(0) - y(d.count))
+          .attr('width', 50)
+
+      svg.append("g")
+          .attr("transform", `translate(0,${height - marginBottom})`)
+          .call(d3.axisBottom(x))
+          .selectAll('text')
+            .style('text-anchor', 'end')
+            .attr('dx', '-0.8em')
+            .attr('dy', '0.15em')
+            .attr('transform', 'rotate(-45 0 0)')
+
+
+      svg.append("g")
+          .attr("transform", `translate(${marginLeft},0)`)
+          .call(d3.axisLeft(y).ticks(highestCountDate + 1))
+        
+    svg.append('g')
+        .call(xGrid)
+
+      return svg
+    }
+
+    const chart = createChallengeFrequency()
+    document.getElementById('challenge-frequency').append(chart.node())
+    const chartDate = createDailySubmissions()
+    document.getElementById('date-frequency').append(chartDate.node())
+  </script>
+</html>
