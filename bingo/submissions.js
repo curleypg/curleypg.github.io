@@ -1298,5 +1298,65 @@ const submissions = [
     "Approved": "y",
     "Who checked": "nonesuch",
     "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2023 17:16:33",
+    "Discord username": "Ethan",
+    "Challenge completed": "Track run",
+    "Additional information.": "",
+    "Activity date": "12/18/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2023 17:38:57",
+    "Discord username": "AwaitingHammyGains",
+    "Challenge completed": "At least 10km",
+    "Additional information.": "",
+    "Activity date": "12/18/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2023 20:19:29",
+    "Discord username": "Kay_02",
+    "Challenge completed": "Set a Personal Best Effort 🏆",
+    "Additional information.": "Check my 10k time for last Monday if you want proof.",
+    "Activity date": "12/18/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2023 20:57:26",
+    "Discord username": ".aaf_",
+    "Challenge completed": "Run through a park 🛝",
+    "Additional information.": "",
+    "Activity date": "12/18/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2023 21:06:04",
+    "Discord username": "phantomtofu",
+    "Challenge completed": "Treadmill run",
+    "Additional information.": "",
+    "Activity date": "12/18/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2023 23:43:09",
+    "Discord username": "AwaitingHammyGains",
+    "Challenge completed": "Track run",
+    "Additional information.": "",
+    "Activity date": "12/18/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
   }
 ]
