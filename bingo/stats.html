@@ -4,7 +4,7 @@
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="pragma" content="no-cache" />
-    <title>Discord 12 Days of Running challenges completed report</title>
+    <title>Discord 12 Days of Running data</title>
     <style>
       .grid-lines line {
         stroke: gray;
@@ -13,8 +13,22 @@
     </style>
   </head>
   <body>
-    <section id="challenge-frequency"></section>
-    <section id="date-frequency"></section>
+    <section>
+      <h2>Total players</h2>
+      <div id="players-count"></div>
+    </section>
+    <section>
+      <h2>Total challenges completed</h2>
+      <div id="challenge-count"></div>
+    </section>
+    <section>
+      <h2>Challenge type frequency</h2>
+      <div id="challenge-frequency"></div>
+    </section>
+    <section>
+      <h2>Dates of activities</h2>
+      <div id="date-frequency"></div>
+    </section>
   </body>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
@@ -29,18 +43,28 @@
       }
     })
 
+    let players = submissions.reduce((acc, curr) => {
+      if (acc.indexOf(curr['Discord username'].toLowerCase()) < 0) {
+        acc.push(curr['Discord username'].toLowerCase())
+      }
+
+      return acc
+    }, [])
+
+
+
     let dataDate = submissions.reduce((acc, curr) => {
       let date = new Date(curr['Activity date']);
       date.setUTCHours(0)
       let dateFormat = date.toISOString()
 
-      if (acc.filter(a => a.date === dateFormat).length === 0) {
+      if (curr['Approved'] === 'y' && acc.filter(a => a.date === dateFormat).length === 0) {
         acc.push({
           date: dateFormat,
           count: 1
         })
       }
-      else {
+      else if (curr['Approved'] === 'y') {
         let counting = acc.filter(a => a.date === dateFormat).pop()
         counting.count += 1
       }
@@ -49,7 +73,7 @@
     }, [])
 
     submissions.forEach(sub => {
-      let dataCount = data.filter(d => d.challenge === sub['Challenge completed']).pop()
+      let dataCount = data.filter(d => d.challenge === sub['Challenge completed'] && sub['Approved'] === 'y').pop()
       if (dataCount) {
         dataCount.count += 1
       }
@@ -188,5 +212,8 @@
     document.getElementById('challenge-frequency').append(chart.node())
     const chartDate = createDailySubmissions()
     document.getElementById('date-frequency').append(chartDate.node())
+
+    document.getElementById('players-count').innerHTML = players.length
+    document.getElementById('challenge-count').innerHTML = submissions.filter(a => a['Approved'] === 'y').length
   </script>
 </html>
