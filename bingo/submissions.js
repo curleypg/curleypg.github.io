@@ -1391,7 +1391,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/19/2023 9:26:58",
-    "Discord username": "Sam H",
+    "Discord username": "SamH",
     "Challenge completed": "Sunrise run 🌄",
     "Additional information.": "",
     "Activity date": "12/17/2023",
@@ -1401,7 +1401,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/19/2023 9:32:34",
-    "Discord username": "Sam H",
+    "Discord username": "SamH",
     "Challenge completed": "Treadmill run",
     "Additional information.": "",
     "Activity date": "12/18/2023",
@@ -1411,7 +1411,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/19/2023 9:37:38",
-    "Discord username": "Sam H",
+    "Discord username": "SamH",
     "Challenge completed": "In temperatures greater than 20C 🥵",
     "Additional information.": "",
     "Activity date": "12/15/2023",
@@ -1421,7 +1421,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/19/2023 9:42:42",
-    "Discord username": "Sam H",
+    "Discord username": "SamH",
     "Challenge completed": "Run through a park 🛝",
     "Additional information.": "",
     "Activity date": "12/9/2023",
@@ -1431,7 +1431,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/19/2023 9:46:00",
-    "Discord username": "Sam H",
+    "Discord username": "SamH",
     "Challenge completed": "Run on snow ❄️",
     "Additional information.": "",
     "Activity date": "12/10/2023",
@@ -1441,7 +1441,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/19/2023 9:49:19",
-    "Discord username": "Sam H",
+    "Discord username": "SamH",
     "Challenge completed": "At least 30min",
     "Additional information.": "",
     "Activity date": "12/11/2023",
@@ -1451,7 +1451,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/19/2023 9:51:47",
-    "Discord username": "Sam H",
+    "Discord username": "SamH",
     "Challenge completed": "During a precipitation",
     "Additional information.": "Alternatively \"Run across a bridge\" ?",
     "Activity date": "12/12/2023",
@@ -1461,7 +1461,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/19/2023 9:54:50",
-    "Discord username": "Sam H",
+    "Discord username": "SamH",
     "Challenge completed": "Run with someone 👫",
     "Additional information.": "",
     "Activity date": "12/14/2023",
@@ -1471,7 +1471,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/19/2023 10:00:48",
-    "Discord username": "Sam H",
+    "Discord username": "SamH",
     "Challenge completed": "Cross-training activity",
     "Additional information.": "",
     "Activity date": "12/13/2023",
@@ -1481,7 +1481,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/19/2023 10:06:49",
-    "Discord username": "Sam H",
+    "Discord username": "SamH",
     "Challenge completed": "Activity Selfie!! 🤳",
     "Additional information.": "NB!!! My selfie was submitted on the server, not on Strava. Hope this is OK! 🦒",
     "Activity date": "12/16/2023",
@@ -1531,7 +1531,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/19/2023 12:40:35",
-    "Discord username": "Sam H",
+    "Discord username": "SamH",
     "Challenge completed": "Sunset run 🌇",
     "Additional information.": "",
     "Activity date": "12/19/2023",
