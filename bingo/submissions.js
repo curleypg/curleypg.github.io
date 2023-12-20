@@ -1358,5 +1358,255 @@ const submissions = [
     "Approved": "y",
     "Who checked": "nonesuch",
     "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 8:41:18",
+    "Discord username": "mricci",
+    "Challenge completed": "Set a Personal Best Effort 🏆",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "n",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 9:01:15",
+    "Discord username": "mricci",
+    "Challenge completed": "Strava Segment Top 3 Personal Effort 🏅",
+    "Additional information.": "In place of PB submission, you can discard the other submission for today.",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 9:13:43",
+    "Discord username": "ossgeek",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 9:26:58",
+    "Discord username": "Sam H",
+    "Challenge completed": "Sunrise run 🌄",
+    "Additional information.": "",
+    "Activity date": "12/17/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 9:32:34",
+    "Discord username": "Sam H",
+    "Challenge completed": "Treadmill run",
+    "Additional information.": "",
+    "Activity date": "12/18/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 9:37:38",
+    "Discord username": "Sam H",
+    "Challenge completed": "In temperatures greater than 20C 🥵",
+    "Additional information.": "",
+    "Activity date": "12/15/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 9:42:42",
+    "Discord username": "Sam H",
+    "Challenge completed": "Run through a park 🛝",
+    "Additional information.": "",
+    "Activity date": "12/9/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 9:46:00",
+    "Discord username": "Sam H",
+    "Challenge completed": "Run on snow ❄️",
+    "Additional information.": "",
+    "Activity date": "12/10/2023",
+    "Approved": "y",
+    "Who checked": "alt & nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 9:49:19",
+    "Discord username": "Sam H",
+    "Challenge completed": "At least 30min",
+    "Additional information.": "",
+    "Activity date": "12/11/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 9:51:47",
+    "Discord username": "Sam H",
+    "Challenge completed": "During a precipitation",
+    "Additional information.": "Alternatively \"Run across a bridge\" ?",
+    "Activity date": "12/12/2023",
+    "Approved": "y",
+    "Who checked": "alt & nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 9:54:50",
+    "Discord username": "Sam H",
+    "Challenge completed": "Run with someone 👫",
+    "Additional information.": "",
+    "Activity date": "12/14/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 10:00:48",
+    "Discord username": "Sam H",
+    "Challenge completed": "Cross-training activity",
+    "Additional information.": "",
+    "Activity date": "12/13/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 10:06:49",
+    "Discord username": "Sam H",
+    "Challenge completed": "Activity Selfie!! 🤳",
+    "Additional information.": "NB!!! My selfie was submitted on the server, not on Strava. Hope this is OK! 🦒",
+    "Activity date": "12/16/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 10:45:23",
+    "Discord username": "Jonahisokay",
+    "Challenge completed": "Run through a park 🛝",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 11:01:12",
+    "Discord username": "ElVishalo",
+    "Challenge completed": "At least 30min",
+    "Additional information.": "If I already did 30 minutes then can this be applied to at least 5k? If that's already done then can this be applied to ran on snow?",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 11:41:46",
+    "Discord username": "Walter Yensid",
+    "Challenge completed": "In temperatures less than 0C 🥶",
+    "Additional information.": "How is it humid at this temperature ahhh",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 12:19:57",
+    "Discord username": "Walter Yensid",
+    "Challenge completed": "Intervals workout",
+    "Additional information.": "Thank goodness that was last challenge I'm exhausted",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 12:40:35",
+    "Discord username": "Sam H",
+    "Challenge completed": "Sunset run 🌇",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 17:47:48",
+    "Discord username": "Ethan",
+    "Challenge completed": "Cross-training activity",
+    "Additional information.": "N3",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 19:35:34",
+    "Discord username": "AwaitingHammyGains",
+    "Challenge completed": "Treadmill run",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 19:41:56",
+    "Discord username": "Kay_02",
+    "Challenge completed": "12th consecutive day",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "n",
+    "Who checked": "alt & nonesuch",
+    "Public comment": "Unable to see runs on 12/12 and 12/15."
+  },
+  {
+    "Timestamp": "12/19/2023 21:27:38",
+    "Discord username": "phantomtofu",
+    "Challenge completed": "200m elevation gain 🗻",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 21:55:40",
+    "Discord username": "RiverRunner",
+    "Challenge completed": "Run a race 🏁",
+    "Additional information.": "http://columbiatrackclub.com/races/cheese-and-sauerkraut-10-miler/2023-cheese-and-sauerkraut-10-miler/",
+    "Activity date": "12/9/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 23:13:47",
+    "Discord username": "AwaitingHammyGains",
+    "Challenge completed": "Trail run 🏞️",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2023 23:15:11",
+    "Discord username": "AwaitingHammyGains",
+    "Challenge completed": "Point-to-point",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "alt",
+    "Public comment": ""
   }
 ]
