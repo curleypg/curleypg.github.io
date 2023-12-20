@@ -175,9 +175,9 @@ const submissions = [
     "Challenge completed": "50m elevation gain ⛰️",
     "Additional information.": "",
     "Activity date": "12/8/2023",
-    "Approved": "y",
-    "Who checked": "alt",
-    "Public comment": ""
+    "Approved": "n",
+    "Who checked": "alt & nonesuch",
+    "Public comment": "User requested change."
   },
   {
     "Timestamp": "12/9/2023 4:10:19",
@@ -325,9 +325,9 @@ const submissions = [
     "Challenge completed": "At least 90min",
     "Additional information.": "please change this from the selfie one",
     "Activity date": "12/9/2023",
-    "Approved": "y",
+    "Approved": "n",
     "Who checked": "nonesuch",
-    "Public comment": ""
+    "Public comment": "User requested change."
   },
   {
     "Timestamp": "12/10/2023 3:56:19",
@@ -815,9 +815,9 @@ const submissions = [
     "Challenge completed": "At least 21.1km",
     "Additional information.": "",
     "Activity date": "12/13/2023",
-    "Approved": "n",
-    "Who checked": "alt",
-    "Public comment": "Link is not working. Event coordinator can not review"
+    "Approved": "y",
+    "Who checked": "alt & nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 10:48:52",
@@ -825,9 +825,9 @@ const submissions = [
     "Challenge completed": "At least 30min",
     "Additional information.": "",
     "Activity date": "12/10/2023",
-    "Approved": "n",
-    "Who checked": "alt",
-    "Public comment": "Link is not working. Event coordinator can not review"
+    "Approved": "y",
+    "Who checked": "alt & nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 11:01:27",
@@ -835,9 +835,9 @@ const submissions = [
     "Challenge completed": "50m elevation gain ⛰️",
     "Additional information.": "",
     "Activity date": "12/12/2023",
-    "Approved": "n",
-    "Who checked": "alt",
-    "Public comment": "Link is not working. Event coordinator can not review"
+    "Approved": "y",
+    "Who checked": "alt & nonesuch",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/14/2023 11:21:06",
@@ -1607,6 +1607,136 @@ const submissions = [
     "Activity date": "12/19/2023",
     "Approved": "y",
     "Who checked": "alt",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 11:58:07",
+    "Discord username": "ElVishalo",
+    "Challenge completed": "3rd consecutive day",
+    "Additional information.": "",
+    "Activity date": "12/20/2023",
+    "Approved": "n",
+    "Who checked": "nonesuch",
+    "Public comment": "Did not happen within the 12 days."
+  },
+  {
+    "Timestamp": "12/20/2023 14:14:32",
+    "Discord username": "FrankTank2434",
+    "Challenge completed": "At least 10km",
+    "Additional information.": "please change this from the old challenge",
+    "Activity date": "12/8/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 14:15:53",
+    "Discord username": "FrankTank2434",
+    "Challenge completed": "At least 60min",
+    "Additional information.": "please change from at least 90 mins to at least 60 mins",
+    "Activity date": "12/9/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 14:18:17",
+    "Discord username": "FrankTank2434",
+    "Challenge completed": "Run with someone 👫",
+    "Additional information.": "",
+    "Activity date": "12/11/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 14:21:21",
+    "Discord username": "FrankTank2434",
+    "Challenge completed": "Run with someone 👫",
+    "Additional information.": "",
+    "Activity date": "12/11/2023",
+    "Approved": "n",
+    "Who checked": "nonesuch",
+    "Public comment": "Duplicate"
+  },
+  {
+    "Timestamp": "12/20/2023 14:23:04",
+    "Discord username": "FrankTank2434",
+    "Challenge completed": "Activity Selfie!! 🤳",
+    "Additional information.": "",
+    "Activity date": "12/12/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 14:24:05",
+    "Discord username": "FrankTank2434",
+    "Challenge completed": "Cross a bridge 🌉",
+    "Additional information.": "",
+    "Activity date": "12/13/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 14:24:48",
+    "Discord username": "FrankTank2434",
+    "Challenge completed": "Run a race 🏁",
+    "Additional information.": "",
+    "Activity date": "12/14/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 14:25:52",
+    "Discord username": "FrankTank2434",
+    "Challenge completed": "Cross-training activity",
+    "Additional information.": "",
+    "Activity date": "12/15/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 14:26:56",
+    "Discord username": "FrankTank2434",
+    "Challenge completed": "100m elevation gain ⛰️",
+    "Additional information.": "",
+    "Activity date": "12/16/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 14:27:46",
+    "Discord username": "FrankTank2434",
+    "Challenge completed": "At least 30min",
+    "Additional information.": "",
+    "Activity date": "12/17/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 14:28:39",
+    "Discord username": "FrankTank2434",
+    "Challenge completed": "In temperatures less than 0C 🥶",
+    "Additional information.": "",
+    "Activity date": "12/18/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 14:29:26",
+    "Discord username": "FrankTank2434",
+    "Challenge completed": "At least 5km",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
     "Public comment": ""
   }
 ]
