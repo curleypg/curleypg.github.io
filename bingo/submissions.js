@@ -1738,5 +1738,265 @@ const submissions = [
     "Approved": "y",
     "Who checked": "nonesuch",
     "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 15:12:27",
+    "Discord username": "johnm",
+    "Challenge completed": "Set a Personal Best Effort 🏆",
+    "Additional information.": "Pr in 10 mile",
+    "Activity date": "12/16/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 15:13:24",
+    "Discord username": "fnm04lovesoreos (Dimash)",
+    "Challenge completed": "Night run: start between 9p-6a local time 🌌",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 15:14:40",
+    "Discord username": "johnm",
+    "Challenge completed": "At least 10km",
+    "Additional information.": "",
+    "Activity date": "12/13/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 15:16:01",
+    "Discord username": "johnm",
+    "Challenge completed": "Run through a park 🛝",
+    "Additional information.": "",
+    "Activity date": "12/10/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 15:25:06",
+    "Discord username": "johnm",
+    "Challenge completed": "Point-to-point",
+    "Additional information.": "",
+    "Activity date": "12/15/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 15:27:23",
+    "Discord username": "johnm",
+    "Challenge completed": "Track run",
+    "Additional information.": "",
+    "Activity date": "12/8/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 15:31:28",
+    "Discord username": "johnm",
+    "Challenge completed": "In temperatures greater than 20C 🥵",
+    "Additional information.": "",
+    "Activity date": "12/9/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 15:32:58",
+    "Discord username": "johnm",
+    "Challenge completed": "Tempo workout",
+    "Additional information.": "",
+    "Activity date": "12/18/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 15:33:56",
+    "Discord username": "johnm",
+    "Challenge completed": "Cross a bridge 🌉",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 15:35:37",
+    "Discord username": "johnm",
+    "Challenge completed": "Trail run 🏞️",
+    "Additional information.": "",
+    "Activity date": "12/14/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 20:37:56",
+    "Discord username": "fnm04lovesoreos (Dimash)",
+    "Challenge completed": "Run through a park 🛝",
+    "Additional information.": "",
+    "Activity date": "12/17/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 20:38:49",
+    "Discord username": "fnm04lovesoreos (Dimash)",
+    "Challenge completed": "Cross a bridge 🌉",
+    "Additional information.": "",
+    "Activity date": "12/17/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 20:40:03",
+    "Discord username": "fnm04lovesoreos (Dimash)",
+    "Challenge completed": "Trail run 🏞️",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 20:40:43",
+    "Discord username": "fnm04lovesoreos (Dimash)",
+    "Challenge completed": "Cross a body of water 🌊",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 20:41:45",
+    "Discord username": "fnm04lovesoreos (Dimash)",
+    "Challenge completed": "Track run",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 20:42:19",
+    "Discord username": "fnm04lovesoreos (Dimash)",
+    "Challenge completed": "Counterclockwise loop",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 20:43:14",
+    "Discord username": "fnm04lovesoreos (Dimash)",
+    "Challenge completed": "Progression workout",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 20:44:47",
+    "Discord username": "fnm04lovesoreos (Dimash)",
+    "Challenge completed": "Take a Segment Crown 🥇",
+    "Additional information.": "It finally updated, and I think you will see it show up as a segment crown, too. :)",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 23:31:00",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Intervals workout",
+    "Additional information.": "",
+    "Activity date": "12/19/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 23:32:49",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "At least 60min",
+    "Additional information.": "",
+    "Activity date": "12/17/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 23:33:56",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Night run: start between 9p-6a local time 🌌",
+    "Additional information.": "",
+    "Activity date": "12/16/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 23:38:43",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Run a race 🏁",
+    "Additional information.": "TT / critical power test (a TT was specified in the discord as qualifying for this square so I figured the power-based equivalent would be ok).",
+    "Activity date": "12/14/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 23:39:30",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Additional information.": "",
+    "Activity date": "12/12/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 23:40:10",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Out-and-back",
+    "Additional information.": "",
+    "Activity date": "12/11/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 23:43:02",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Cross-training activity",
+    "Additional information.": "BINGO grid: O-2\nThis cross training is 44min of indoor soccer. Sports electronics are only allowed when taped up, so I don't use them at this park. I therefore don't have a social sharing link.",
+    "Activity date": "12/14/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2023 23:47:19",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Cross-training activity",
+    "Additional information.": "BINGO grid: I-4\nThis cross training is 44min of indoor soccer. Sports electronics are only allowed when taped up, so I don't typically use them at this park. I therefore don't have a social sharing link.",
+    "Activity date": "12/18/2023",
+    "Approved": "y",
+    "Who checked": "nonesuch",
+    "Public comment": ""
   }
 ]
