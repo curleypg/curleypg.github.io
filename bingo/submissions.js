@@ -1565,9 +1565,9 @@ const submissions = [
     "Challenge completed": "12th consecutive day",
     "Additional information.": "",
     "Activity date": "12/19/2023",
-    "Approved": "n",
+    "Approved": "y",
     "Who checked": "alt & nonesuch",
-    "Public comment": "Unable to see runs on 12/12 and 12/15."
+    "Public comment": ""
   },
   {
     "Timestamp": "12/19/2023 21:27:38",
