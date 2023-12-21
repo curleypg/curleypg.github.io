@@ -59,6 +59,10 @@
         <h2>Dates of activities</h2>
         <div id="date-frequency"></div>
       </section>
+      <section>
+        <h2>Frequency of the number of challenges met</h2>
+        <div id="completion-frequency"></div>
+      </section>
     </main>
   </body>
 
@@ -82,7 +86,57 @@
       return acc
     }, [])
 
+    const getPlayerCount = function(player) {
+      return submissions.filter(sub => player === sub['Discord username'].toLowerCase() && sub['Approved'] === 'y').length
+    }
 
+    const frequencyOfCompletion = [
+      {
+        frequency: 0,
+        count: 0,
+      },
+      {
+        frequency: 1,
+        count: 0,
+      },      {
+        frequency: 2,
+        count: 0,
+      },      {
+        frequency: 3,
+        count: 0,
+      },      {
+        frequency: 4,
+        count: 0,
+      },      {
+        frequency: 5,
+        count: 0,
+      },      {
+        frequency: 6,
+        count: 0,
+      },      {
+        frequency: 7,
+        count: 0,
+      },      {
+        frequency: 8,
+        count: 0,
+      },      {
+        frequency: 9,
+        count: 0,
+      },      {
+        frequency: 10,
+        count: 0,
+      },      {
+        frequency: 11,
+        count: 0,
+      },      {
+        frequency: 12,
+        count: 0,
+      }]
+
+    players.forEach(p => {
+      let count = getPlayerCount(p)
+      frequencyOfCompletion[count].count += 1
+    })
 
     let dataDate = submissions.reduce((acc, curr) => {
       let date = new Date(curr['Activity date']);
@@ -122,7 +176,7 @@
     const height = 840;
     const marginTop = 20;
     const marginRight = 20;
-    const marginBottom = 250;
+    const marginBottom = 200;
     const marginLeft = 40;
 
     const createChallengeFrequency = () => {
@@ -239,10 +293,63 @@
       return svg
     }
 
+    const createCompletedFrequency= () => {
+      const x = d3
+        .scaleLinear()
+        .domain([0, 12])
+        .range([marginLeft, width - marginRight])
+
+      const y = d3.scaleLinear()
+          .domain([0, 10])
+          .range([height - marginBottom, marginTop]);
+
+      const xGrid = (g) => g
+        .attr('class', 'grid-lines')
+        .attr('class', 'grid-lines')
+        .selectAll('line')
+        .data(y.ticks(10))
+        .join('line')
+        .attr('y1', d => y(d))
+        .attr('y2', d => y(d))
+        .attr('x1', marginTop)
+        .attr('x2', width - marginRight)
+
+      const svg = d3.create("svg")
+          .attr("width", width)
+          .attr("height", height)
+          .attr('aria-label', 'Chart of completed challenge frequency.')
+
+      svg
+        .append('g')
+          .attr('fill', 'steelblue')
+        .selectAll()
+        .data(frequencyOfCompletion)
+        .join('rect')
+          .attr('x', d => x(d.frequency))
+          .attr('y', d => y(d.count))
+          .attr('height', d => y(0) - y(d.count))
+          .attr('width', 50)
+
+      svg.append("g")
+          .attr("transform", `translate(0,${height - marginBottom})`)
+          .call(d3.axisBottom(x))
+
+      svg.append("g")
+          .attr("transform", `translate(${marginLeft},0)`)
+          .call(d3.axisLeft(y).ticks(10 + 1))
+
+      svg.append('g')
+        .call(xGrid)
+
+      return svg
+    }
+
     const chart = createChallengeFrequency()
     document.getElementById('challenge-frequency').append(chart.node())
     const chartDate = createDailySubmissions()
     document.getElementById('date-frequency').append(chartDate.node())
+    const chartComplete = createCompletedFrequency()
+    document.getElementById('completion-frequency').append(chartComplete.node())
 
     document.getElementById('players-count').innerHTML = players.length
     document.getElementById('challenge-count').innerHTML = submissions.filter(a => a['Approved'] === 'y').length
