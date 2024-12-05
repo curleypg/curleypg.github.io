@@ -50,5 +50,5 @@ Act of Kindness 🎁,
 Activity Selfie!! 🤳,
 Cross-training activity,
 Plogging 🚮,
-Run Commute 🏃‍♂️👜,
+Run Commute 🏃‍♂️👜
 `;
