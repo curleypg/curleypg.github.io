@@ -182,5 +182,133 @@ const submissions = [
     "Activity date": "12/10/2024",
     "Approved": "y",
     "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 9:36:28",
+    "Discord username": "lucasin16",
+    "Challenge completed": "Intervals workout",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 11:03:20",
+    "Discord username": "mricci",
+    "Challenge completed": "Cross a bridge 🌉",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 13:52:28",
+    "Discord username": "jj",
+    "Challenge completed": "Double run day 🏃‍♂️🏃🏾‍♀️",
+    "Activity date": "12/10/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 13:53:20",
+    "Discord username": "JJ",
+    "Challenge completed": "Intervals workout",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 14:09:11",
+    "Discord username": "Jonahisokay",
+    "Challenge completed": "Cross-training activity",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 14:09:29",
+    "Discord username": "ossgeek",
+    "Challenge completed": "At least 30min",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 14:10:58",
+    "Discord username": "ossgeek",
+    "Challenge completed": "In temperatures greater than 20C 🥵",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 14:11:56",
+    "Discord username": "ossgeek",
+    "Challenge completed": "Treadmill run",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 15:00:01",
+    "Discord username": "Unsmart",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 16:43:23",
+    "Discord username": "potato.10",
+    "Challenge completed": "In temperatures greater than 20C 🥵",
+    "Activity date": "12/10/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 17:58:35",
+    "Discord username": "Shasta",
+    "Challenge completed": "Hill Repeats",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 18:58:20",
+    "Discord username": "stuykidsarejedis",
+    "Challenge completed": "At least 10km",
+    "Activity date": "12/11/2010",
+    "Approved": "n",
+    "Public comment": "Wrong date"
+  },
+  {
+    "Timestamp": "12/11/2024 18:59:01",
+    "Discord username": "stuykidsarejedis",
+    "Challenge completed": "At least 10km",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/11/2024 22:08:23",
+    "Discord username": "Wickn",
+    "Challenge completed": "In temperatures greater than 20C 🥵",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": "elapsed time 15 minutes"
+  },
+  {
+    "Timestamp": "12/11/2024 22:54:36",
+    "Discord username": "Jj",
+    "Challenge completed": "Trail run 🏞️",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/12/2024 8:43:14",
+    "Discord username": "mricci",
+    "Challenge completed": "Clockwise loop",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
   }
-]
+];
