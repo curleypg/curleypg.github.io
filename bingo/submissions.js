@@ -420,8 +420,8 @@ const submissions = [
     "Discord username": "Soup",
     "Challenge completed": "At least 60min",
     "Activity date": "12/11/2024",
-    "Approved": "n",
-    "Public comment": "Must be a running activity"
+    "Approved": "y",
+    "Public comment": ""
   },
   {
     "Timestamp": "12/13/2024 5:47:39",
@@ -460,6 +460,14 @@ const submissions = [
     "Discord username": "djwinch",
     "Challenge completed": "Set a Personal Best Effort 🏆",
     "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/13/2024 14:01:11",
+    "Discord username": "stuykidsarejedis",
+    "Challenge completed": "Tempo workout",
+    "Activity date": "12/12/2024",
     "Approved": "y",
     "Public comment": ""
   }
