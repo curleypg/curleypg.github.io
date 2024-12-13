@@ -310,5 +310,157 @@ const submissions = [
     "Activity date": "12/12/2024",
     "Approved": "y",
     "Public comment": ""
+  },
+  {
+    "Timestamp": "12/12/2024 9:25:13",
+    "Discord username": "djwinch",
+    "Challenge completed": "Strava/GPS art 🎨",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": "cool giraffe :)"
+  },
+  {
+    "Timestamp": "12/12/2024 9:26:26",
+    "Discord username": "Vexation",
+    "Challenge completed": "Treadmill run",
+    "Activity date": "12/11/2024",
+    "Approved": "n",
+    "Public comment": "requested activity could not be found"
+  },
+  {
+    "Timestamp": "12/12/2024 9:27:43",
+    "Discord username": "djwinch",
+    "Challenge completed": "At least 10km",
+    "Activity date": "12/10/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/12/2024 10:56:07",
+    "Discord username": "lucasin16",
+    "Challenge completed": "Cross a bridge 🌉",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/12/2024 11:05:41",
+    "Discord username": "Jonahisokay",
+    "Challenge completed": "At least 60min",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/12/2024 11:22:32",
+    "Discord username": "ossgeek",
+    "Challenge completed": "3rd consecutive day",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/12/2024 11:23:30",
+    "Discord username": "ossgeek",
+    "Challenge completed": "Trail run 🏞️",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/12/2024 12:17:13",
+    "Discord username": "jj",
+    "Challenge completed": "During a precipitation",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/12/2024 16:08:20",
+    "Discord username": "Unsmart",
+    "Challenge completed": "Progression workout",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/12/2024 17:32:24",
+    "Discord username": "Striper",
+    "Challenge completed": "Sunset run 🌇",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/12/2024 19:36:06",
+    "Discord username": "Nomz",
+    "Challenge completed": "Progression workout",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/12/2024 20:39:37",
+    "Discord username": "Soup",
+    "Challenge completed": "Run with someone 👫",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/12/2024 20:40:09",
+    "Discord username": "Shasta",
+    "Challenge completed": "Strava/GPS art 🎨",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": "Person running! 🏃🏼‍♂️"
+  },
+  {
+    "Timestamp": "12/12/2024 20:46:54",
+    "Discord username": "Soup",
+    "Challenge completed": "At least 60min",
+    "Activity date": "12/11/2024",
+    "Approved": "n",
+    "Public comment": "Must be a running activity"
+  },
+  {
+    "Timestamp": "12/13/2024 5:47:39",
+    "Discord username": "djwinch",
+    "Challenge completed": "Out-and-back",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/13/2024 8:43:14",
+    "Discord username": "mricci",
+    "Challenge completed": "100m elevation gain ⛰️",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/13/2024 9:37:48",
+    "Discord username": "lucasin16",
+    "Challenge completed": "Clockwise loop",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/13/2024 10:24:47",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Cross a body of water 🌊",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/13/2024 10:44:10",
+    "Discord username": "djwinch",
+    "Challenge completed": "Set a Personal Best Effort 🏆",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
   }
-];
+]
