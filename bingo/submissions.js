@@ -470,5 +470,349 @@ const submissions = [
     "Activity date": "12/12/2024",
     "Approved": "y",
     "Public comment": ""
+  },
+  {
+    "Timestamp": "12/13/2024 15:17:42",
+    "Discord username": "Striper",
+    "Challenge completed": "Run through a park 🛝",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/13/2024 15:52:43",
+    "Discord username": "Unsmart",
+    "Challenge completed": "100m elevation gain ⛰️",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/13/2024 15:55:18",
+    "Discord username": "nick9",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/13/2024 17:02:28",
+    "Discord username": "Striper",
+    "Challenge completed": "Run with someone 👫",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/13/2024 18:25:25",
+    "Discord username": "Shasta",
+    "Challenge completed": "At least 10km",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/13/2024 19:28:32",
+    "Discord username": "Jonahisokay",
+    "Challenge completed": "Activity Selfie!! 🤳",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/13/2024 20:23:09",
+    "Discord username": "Nomz",
+    "Challenge completed": "In temperatures less than 0C 🥶",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 0:10:35",
+    "Discord username": "stuykidsarejedis",
+    "Challenge completed": "Run through a park 🛝",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 3:22:38",
+    "Discord username": "djwinch",
+    "Challenge completed": "3rd consecutive day",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 3:59:38",
+    "Discord username": "Wickn",
+    "Challenge completed": "Night run: start between 9p-6a local time 🌌",
+    "Activity date": "12/14/2024",
+    "Approved": "n",
+    "Public comment": "Starts outside of night time"
+  },
+  {
+    "Timestamp": "12/14/2024 8:21:34",
+    "Discord username": "mricci",
+    "Challenge completed": "Cross a body of water 🌊",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 10:43:43",
+    "Discord username": "Unsmart",
+    "Challenge completed": "Run with someone 👫",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 10:47:42",
+    "Discord username": "Jonahisokay",
+    "Challenge completed": "In temperatures less than 0C 🥶",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 10:50:09",
+    "Discord username": "ossgeek",
+    "Challenge completed": "Run a race 🏁",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 10:54:14",
+    "Discord username": "ossgeek",
+    "Challenge completed": "Run with someone 👫",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 12:10:53",
+    "Discord username": "Striper",
+    "Challenge completed": "Strava Segment Top 3 Personal Effort 🏅",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 13:30:03",
+    "Discord username": "nick9",
+    "Challenge completed": "Tempo workout",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 15:35:27",
+    "Discord username": "Striper",
+    "Challenge completed": "3rd consecutive day",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 19:14:51",
+    "Discord username": "Shasta",
+    "Challenge completed": "During a precipitation",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 20:44:35",
+    "Discord username": "Jj",
+    "Challenge completed": "At least 90min",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/14/2024 21:20:32",
+    "Discord username": "Nomz",
+    "Challenge completed": "A single loop at least 10 times",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 5:43:35",
+    "Discord username": "Wickn",
+    "Challenge completed": "At least 60min",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 8:46:45",
+    "Discord username": "mricci",
+    "Challenge completed": "At least 120min",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 10:45:29",
+    "Discord username": "Shasta",
+    "Challenge completed": "Run a race 🏁",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 11:47:05",
+    "Discord username": "lucasin16",
+    "Challenge completed": "At least 10km",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 12:36:35",
+    "Discord username": "Jonahisokay",
+    "Challenge completed": "Tempo workout",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 14:16:39",
+    "Discord username": "nick9",
+    "Challenge completed": "3rd consecutive day",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 14:17:29",
+    "Discord username": "nick9",
+    "Challenge completed": "Run through a park 🛝",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 14:34:26",
+    "Discord username": "Jj",
+    "Challenge completed": "Clockwise loop",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 15:17:21",
+    "Discord username": "Striper",
+    "Challenge completed": "At least 90min",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 15:59:22",
+    "Discord username": "djwinch",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 16:23:45",
+    "Discord username": "Unsmart",
+    "Challenge completed": "At least 5km",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 17:28:51",
+    "Discord username": "Nomz",
+    "Challenge completed": "At least 90min",
+    "Activity date": "12/15/2024",
+    "Approved": "n",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 17:30:43",
+    "Discord username": "Nomz",
+    "Challenge completed": "100m elevation gain ⛰️",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": "Submitted same activity. Ignore the 90 min"
+  },
+  {
+    "Timestamp": "12/15/2024 19:01:23",
+    "Discord username": "cheese4all",
+    "Challenge completed": "At least 21.1km",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 19:06:08",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Run with someone 👫",
+    "Activity date": "12/10/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 19:08:43",
+    "Discord username": "stuykidsarejedis",
+    "Challenge completed": "Clockwise loop",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": "Why did the runner get sad when he was grounded? Because he realized he couldn't take his problems in stride anymore!"
+  },
+  {
+    "Timestamp": "12/15/2024 19:17:12",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Counterclockwise loop",
+    "Activity date": "12/10/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 19:17:56",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Clockwise loop",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 19:19:03",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Sunset run 🌇",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 19:20:49",
+    "Discord username": "cheese4all",
+    "Challenge completed": "At least 30min",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 19:22:36",
+    "Discord username": "cheese4all",
+    "Challenge completed": "At least 5km",
+    "Activity date": "12/12/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 19:23:27",
+    "Discord username": "cheese4all",
+    "Challenge completed": "3rd consecutive day",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
   }
-]
+]; 
