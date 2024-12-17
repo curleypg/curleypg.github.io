@@ -814,5 +814,117 @@ const submissions = [
     "Activity date": "12/14/2024",
     "Approved": "y",
     "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 19:38:11",
+    "Discord username": "Vexation",
+    "Challenge completed": "Night run: start between 9p-6a local time 🌌",
+    "Activity date": "12/14/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/15/2024 19:39:23",
+    "Discord username": "Vexation",
+    "Challenge completed": "Counterclockwise loop",
+    "Activity date": "12/15/2024",
+    "Approved": "",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/16/2024 8:30:19",
+    "Discord username": "mricci",
+    "Challenge completed": "7th consecutive day",
+    "Activity date": "12/16/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/16/2024 10:19:02",
+    "Discord username": "Jj",
+    "Challenge completed": "At least 10km",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/16/2024 10:19:42",
+    "Discord username": "Jj",
+    "Challenge completed": "At least 10km",
+    "Activity date": "12/16/2024",
+    "Approved": "n",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/16/2024 10:31:12",
+    "Discord username": "Jonahishokay",
+    "Challenge completed": "At least 90min",
+    "Activity date": "12/16/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/16/2024 10:59:13",
+    "Discord username": "ossgeek",
+    "Challenge completed": "At least 60min",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/16/2024 15:49:32",
+    "Discord username": "Unsmart",
+    "Challenge completed": "Intervals workout",
+    "Activity date": "12/16/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/16/2024 15:50:10",
+    "Discord username": "nick9",
+    "Challenge completed": "At least 10km",
+    "Activity date": "12/16/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/16/2024 18:13:17",
+    "Discord username": "ossgeek",
+    "Challenge completed": "Take a Segment Crown 🥇",
+    "Activity date": "12/16/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/16/2024 18:18:34",
+    "Discord username": "Soup",
+    "Challenge completed": "100m elevation gain ⛰️",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/16/2024 18:51:38",
+    "Discord username": "ossgeek",
+    "Challenge completed": "Strava Segment Top 3 Personal Effort 🏅",
+    "Activity date": "12/16/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/16/2024 23:54:07",
+    "Discord username": "Nomz",
+    "Challenge completed": "At least 10km",
+    "Activity date": "12/16/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/17/2024 1:11:03",
+    "Discord username": "Shasta",
+    "Challenge completed": "At least 30min",
+    "Activity date": "12/16/2024",
+    "Approved": "y",
+    "Public comment": ""
   }
-]; 
+];
