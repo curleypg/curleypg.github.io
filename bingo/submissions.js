@@ -926,5 +926,141 @@ const submissions = [
     "Activity date": "12/16/2024",
     "Approved": "y",
     "Public comment": ""
+  },
+  {
+    "Timestamp": "12/17/2024 8:25:48",
+    "Discord username": "djwinch",
+    "Challenge completed": "At least 30min",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/17/2024 9:01:21",
+    "Discord username": "mricci",
+    "Challenge completed": "Track run",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/17/2024 9:30:21",
+    "Discord username": "lucasin16",
+    "Challenge completed": "Cross-training activity",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/17/2024 9:50:12",
+    "Discord username": "Striper",
+    "Challenge completed": "Run Commute 🏃‍♂️👜",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/17/2024 11:09:16",
+    "Discord username": "jonahisokay",
+    "Challenge completed": "Progression workout",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/17/2024 12:54:30",
+    "Discord username": "Striper",
+    "Challenge completed": "Intervals workout",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/17/2024 18:17:05",
+    "Discord username": "ossgeek",
+    "Challenge completed": "Activity Selfie!! 🤳",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/17/2024 22:05:39",
+    "Discord username": "Jj",
+    "Challenge completed": "Strava Segment Top 3 Personal Effort 🏅",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/17/2024 22:20:45",
+    "Discord username": "Nomz",
+    "Challenge completed": "Run through a park 🛝",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 5:47:35",
+    "Discord username": "Striper",
+    "Challenge completed": "Night run: start between 9p-6a local time 🌌",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 6:48:52",
+    "Discord username": "djwinch",
+    "Challenge completed": "Clockwise loop",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 6:49:27",
+    "Discord username": "djwinch",
+    "Challenge completed": "Activity Selfie!! 🤳",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 9:29:20",
+    "Discord username": "Shasta",
+    "Challenge completed": "At least 120min",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 10:19:20",
+    "Discord username": "lucasin16",
+    "Challenge completed": "Activity Selfie!! 🤳",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 13:21:47",
+    "Discord username": "JJ",
+    "Challenge completed": "Activity Selfie!! 🤳",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 13:22:33",
+    "Discord username": "mricci",
+    "Challenge completed": "12th consecutive day",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 14:49:33",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Hill Repeats",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
   }
 ];
