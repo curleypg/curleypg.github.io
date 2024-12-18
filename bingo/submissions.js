@@ -25,7 +25,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/9/2024 10:58:44",
-    "Discord username": "jonahisokay",
+    "Discord username": "Jonahisokay",
     "Challenge completed": "50m elevation gain ⛰️",
     "Activity date": "12/9/2024",
     "Approved": "y",
@@ -961,7 +961,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/17/2024 11:09:16",
-    "Discord username": "jonahisokay",
+    "Discord username": "Jonahisokay",
     "Challenge completed": "Progression workout",
     "Activity date": "12/17/2024",
     "Approved": "y",
