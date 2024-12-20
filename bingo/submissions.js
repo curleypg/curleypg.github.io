@@ -1156,8 +1156,8 @@ const submissions = [
     "Discord username": "Jonahisokay",
     "Challenge completed": "Point-to-point",
     "Activity date": "12/19/2024",
-    "Approved": "y",
-    "Public comment": ""
+    "Approved": "n",
+    "Public comment": "Wrong challenge."
   },
   {
     "Timestamp": "12/19/2024 18:52:38",
@@ -1212,6 +1212,46 @@ const submissions = [
     "Discord username": "Jonahisokay",
     "Challenge completed": "Run through a park 🛝",
     "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2024 14:56:31",
+    "Discord username": "nick9",
+    "Challenge completed": "Set a Personal Best Effort 🏆",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2024 14:57:43",
+    "Discord username": "nick9",
+    "Challenge completed": "Point-to-point",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2024 14:58:56",
+    "Discord username": "nick9",
+    "Challenge completed": "During a precipitation",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2024 14:59:38",
+    "Discord username": "nick9",
+    "Challenge completed": "7th consecutive day",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2024 17:04:01",
+    "Discord username": "Jonahisokay",
+    "Challenge completed": "Sunset run 🌇",
+    "Activity date": "12/20/2024",
     "Approved": "y",
     "Public comment": ""
   }
