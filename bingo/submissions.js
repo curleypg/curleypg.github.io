@@ -828,7 +828,7 @@ const submissions = [
     "Discord username": "Vexation",
     "Challenge completed": "Counterclockwise loop",
     "Activity date": "12/15/2024",
-    "Approved": "",
+    "Approved": "y",
     "Public comment": ""
   },
   {
@@ -1060,6 +1060,158 @@ const submissions = [
     "Discord username": "cheese4all",
     "Challenge completed": "Hill Repeats",
     "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 16:42:57",
+    "Discord username": "nick9",
+    "Challenge completed": "A single loop at least 10 times",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 16:44:07",
+    "Discord username": "nick9",
+    "Challenge completed": "Cross a bridge 🌉",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 16:45:53",
+    "Discord username": "nick9",
+    "Challenge completed": "Double run day 🏃‍♂️🏃🏾‍♀️",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 19:07:56",
+    "Discord username": "Shasta",
+    "Challenge completed": "Clockwise loop",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 21:13:55",
+    "Discord username": "mricci",
+    "Challenge completed": "Cross-training activity",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 21:27:07",
+    "Discord username": "stuykidsarejedis",
+    "Challenge completed": "Set a Personal Best Effort 🏆",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2024 23:15:56",
+    "Discord username": "Nomz",
+    "Challenge completed": "Point-to-point",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2024 7:36:19",
+    "Discord username": "mricci",
+    "Challenge completed": "Tempo workout",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2024 8:09:01",
+    "Discord username": "djwinch",
+    "Challenge completed": "Cross a bridge 🌉",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2024 8:11:01",
+    "Discord username": "lucasin16",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2024 8:13:18",
+    "Discord username": "lucasin16",
+    "Challenge completed": "Trail run 🏞️",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2024 10:52:35",
+    "Discord username": "Jonahisokay",
+    "Challenge completed": "Point-to-point",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2024 18:52:38",
+    "Discord username": "cheese4all",
+    "Challenge completed": "At least 16km",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2024 19:55:51",
+    "Discord username": "Shasta",
+    "Challenge completed": "Activity Selfie!! 🤳",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2024 23:02:31",
+    "Discord username": "Nomz",
+    "Challenge completed": "Act of Kindness 🎁",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2024 7:22:04",
+    "Discord username": "djwinch",
+    "Challenge completed": "Costume Dash 🎅🦌",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2024 10:57:23",
+    "Discord username": "lucasin16",
+    "Challenge completed": "At least 60min",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2024 12:28:25",
+    "Discord username": "Jonahisokay",
+    "Challenge completed": "Sunrise run 🌄",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2024 12:32:29",
+    "Discord username": "Jonahisokay",
+    "Challenge completed": "Run through a park 🛝",
+    "Activity date": "12/19/2024",
     "Approved": "y",
     "Public comment": ""
   }
