@@ -857,7 +857,7 @@ const submissions = [
   },
   {
     "Timestamp": "12/16/2024 10:31:12",
-    "Discord username": "Jonahishokay",
+    "Discord username": "Jonahisokay",
     "Challenge completed": "At least 90min",
     "Activity date": "12/16/2024",
     "Approved": "y",
