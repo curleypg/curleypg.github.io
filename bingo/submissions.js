@@ -1254,5 +1254,269 @@ const submissions = [
     "Activity date": "12/20/2024",
     "Approved": "y",
     "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2024 17:36:48",
+    "Discord username": "Soup",
+    "Challenge completed": "Out-and-back",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2024 17:50:15",
+    "Discord username": "Shasta",
+    "Challenge completed": "Intervals workout",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2024 18:28:30",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Strava/GPS art 🎨",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 10:51:41",
+    "Discord username": "stuykidsarejedis",
+    "Challenge completed": "In temperatures less than 0C 🥶",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 10:52:43",
+    "Discord username": "stuykidsarejedis",
+    "Challenge completed": "Double run day 🏃‍♂️🏃🏾‍♀️",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 10:53:23",
+    "Discord username": "stuykidsarejedis",
+    "Challenge completed": "Sunset run 🌇",
+    "Activity date": "12/19/2010",
+    "Approved": "n",
+    "Public comment": "duplicate"
+  },
+  {
+    "Timestamp": "12/21/2024 12:46:19",
+    "Discord username": "stuykidsarejedis",
+    "Challenge completed": "Sunset run 🌇",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 14:24:23",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "At least 30min",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 14:25:42",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Activity date": "12/20/2024",
+    "Approved": "n",
+    "Public comment": "Not enough elevation (11m)"
+  },
+  {
+    "Timestamp": "12/21/2024 14:26:25",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Run through a park 🛝",
+    "Activity date": "12/20/2024",
+    "Approved": "n",
+    "Public comment": "Duplicate of At least 30 min activity"
+  },
+  {
+    "Timestamp": "12/21/2024 14:26:55",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 14:27:42",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Cross-training activity",
+    "Activity date": "12/19/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 14:28:17",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Hill Repeats",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 14:29:02",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "A single loop at least 10 times",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 14:29:32",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Point-to-point",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 14:30:06",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "3rd consecutive day",
+    "Activity date": "12/17/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 14:30:33",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "During a precipitation",
+    "Activity date": "12/16/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 14:31:51",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "200m elevation gain 🗻",
+    "Activity date": "12/15/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 14:33:14",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Counterclockwise loop",
+    "Activity date": "12/13/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 14:34:18",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Tempo workout",
+    "Activity date": "12/11/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 21:03:38",
+    "Discord username": "Nomz",
+    "Challenge completed": "7th consecutive day",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 21:04:28",
+    "Discord username": "Nomz",
+    "Challenge completed": "Cross-training activity",
+    "Activity date": "12/18/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 22:57:22",
+    "Discord username": "Dimash",
+    "Challenge completed": "At least 120min",
+    "Activity date": "12/16/2024",
+    "Approved": "y",
+    "Public comment": "🎅"
+  },
+  {
+    "Timestamp": "12/21/2024 22:58:31",
+    "Discord username": "Dimash",
+    "Challenge completed": "Hill Repeats",
+    "Activity date": "12/20/2024",
+    "Approved": "n",
+    "Public comment": "I see 1 hill climb..."
+  },
+  {
+    "Timestamp": "12/21/2024 22:59:11",
+    "Discord username": "Dimash",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 23:00:53",
+    "Discord username": "Dimash",
+    "Challenge completed": "Cross a body of water 🌊",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 23:02:12",
+    "Discord username": "Dimash",
+    "Challenge completed": "Trail run 🏞️",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 23:02:57",
+    "Discord username": "Dimash",
+    "Challenge completed": "Strava Segment Top 10 🔟",
+    "Activity date": "12/20/2024",
+    "Approved": "n",
+    "Public comment": "I don't see a Segment. DM more info."
+  },
+  {
+    "Timestamp": "12/21/2024 23:04:23",
+    "Discord username": "Dimash",
+    "Challenge completed": "At least 5km",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 23:04:58",
+    "Discord username": "Dimash",
+    "Challenge completed": "During a precipitation",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 23:06:21",
+    "Discord username": "Dimash",
+    "Challenge completed": "Run with someone 👫",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2024 23:08:59",
+    "Discord username": "Dimash",
+    "Challenge completed": "Clockwise loop",
+    "Activity date": "12/20/2024",
+    "Approved": "n",
+    "Public comment": "That is counter-clockwise"
+  },
+  {
+    "Timestamp": "12/21/2024 23:10:54",
+    "Discord username": "Dimash",
+    "Challenge completed": "Cross-training activity",
+    "Activity date": "12/20/2024",
+    "Approved": "y",
+    "Public comment": ""
   }
 ];
