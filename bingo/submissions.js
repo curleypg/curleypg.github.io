@@ -58,7 +58,7 @@ const submissions = [
   {
     "Timestamp": "12/9/2024 22:19:36",
     "Discord username": "_h0si",
-    "Challenge completed": "Track run",
+    "Challenge completed": " 🔄",
     "Activity date": "12/9/2024",
     "Approved": "y",
     "Public comment": ""
@@ -90,7 +90,7 @@ const submissions = [
   {
     "Timestamp": "12/10/2024 9:03:13",
     "Discord username": "mricci",
-    "Challenge completed": "A single loop at least 10 times",
+    "Challenge completed": "A single loop at least 10 times 🔄",
     "Activity date": "12/10/2024",
     "Approved": "y",
     "Public comment": ""
@@ -154,7 +154,7 @@ const submissions = [
   {
     "Timestamp": "12/10/2024 18:29:33",
     "Discord username": "Shasta",
-    "Challenge completed": "A single loop at least 10 times",
+    "Challenge completed": "A single loop at least 10 times 🔄",
     "Activity date": "12/10/2024",
     "Approved": "y",
     "Public comment": ""
@@ -634,7 +634,7 @@ const submissions = [
   {
     "Timestamp": "12/14/2024 21:20:32",
     "Discord username": "Nomz",
-    "Challenge completed": "A single loop at least 10 times",
+    "Challenge completed": "A single loop at least 10 times 🔄",
     "Activity date": "12/14/2024",
     "Approved": "y",
     "Public comment": ""
@@ -938,7 +938,7 @@ const submissions = [
   {
     "Timestamp": "12/17/2024 9:01:21",
     "Discord username": "mricci",
-    "Challenge completed": "Track run",
+    "Challenge completed": "Track run 🔄",
     "Activity date": "12/17/2024",
     "Approved": "y",
     "Public comment": ""
@@ -1066,7 +1066,7 @@ const submissions = [
   {
     "Timestamp": "12/18/2024 16:42:57",
     "Discord username": "nick9",
-    "Challenge completed": "A single loop at least 10 times",
+    "Challenge completed": "A single loop at least 10 times 🔄",
     "Activity date": "12/17/2024",
     "Approved": "y",
     "Public comment": ""
@@ -1362,7 +1362,7 @@ const submissions = [
   {
     "Timestamp": "12/21/2024 14:29:02",
     "Discord username": "huntsmaster",
-    "Challenge completed": "A single loop at least 10 times",
+    "Challenge completed": "A single loop at least 10 times 🔄",
     "Activity date": "12/18/2024",
     "Approved": "y",
     "Public comment": ""
