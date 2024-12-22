@@ -1332,8 +1332,8 @@ const submissions = [
     "Discord username": "huntsmaster",
     "Challenge completed": "Run through a park 🛝",
     "Activity date": "12/20/2024",
-    "Approved": "n",
-    "Public comment": "Duplicate of At least 30 min activity"
+    "Approved": "y",
+    "Public comment": "Resubmitted as correct challenge."
   },
   {
     "Timestamp": "12/21/2024 14:26:55",
