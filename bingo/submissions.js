@@ -1444,8 +1444,8 @@ const submissions = [
     "Discord username": "Dimash",
     "Challenge completed": "Hill Repeats",
     "Activity date": "12/20/2024",
-    "Approved": "n",
-    "Public comment": "I see 1 hill climb..."
+    "Approved": "y",
+    "Public comment": "User fixed activity visibility and there were hill repeats!"
   },
   {
     "Timestamp": "12/21/2024 22:59:11",
@@ -1477,7 +1477,7 @@ const submissions = [
     "Challenge completed": "Strava Segment Top 10 🔟",
     "Activity date": "12/20/2024",
     "Approved": "n",
-    "Public comment": "I don't see a Segment. DM more info."
+    "Public comment": "Activity too short (<15 min)"
   },
   {
     "Timestamp": "12/21/2024 23:04:23",
@@ -1506,9 +1506,9 @@ const submissions = [
   {
     "Timestamp": "12/21/2024 23:08:59",
     "Discord username": "Dimash",
-    "Challenge completed": "Clockwise loop",
+    "Challenge completed": "Counterclockwise loop",
     "Activity date": "12/20/2024",
-    "Approved": "n",
+    "Approved": "y",
     "Public comment": "That is counter-clockwise"
   },
   {
