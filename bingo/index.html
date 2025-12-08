@@ -24,95 +24,7 @@
 <meta property="twitter:description" content="Use this site to generate your BINGO card and to check your submitted activities." />
 <meta property="twitter:image" content="https://curleypg.github.io/bingo/bingo-1200.jpg" />
 
-<style type="text/css">
-    header {
-    box-shadow: 0 1px 2px rgba(0,0,0,0.25);
-    }
-
-    ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    }
-
-    li {
-    display: inline-block;
-    margin-right: 0.5rem;
-    }
-	label,input, select {
-		display:inline-block;
-	}
-	input,select {
-		margin-bottom:.5em;
-	}
-	legend { font-weight: bold }
-	div.clear { clear:both; }
-	div.break { clear:both; page-break-after:always; break-after:always; }
-	table {
-		background-color:black;
-		border-collapse:collapse;
-		margin-bottom:1em;
-		margin-right:1em;
-	}
-	td, th {
-		border:1px solid black;
-		text-align:center;
-	}
-	th {
-		color:white;
-		height:50px;
-		font-family:Arial,Helvetica;
-		font-size:24px;
-	}
-	td {
-		background-color:white;
-		width:85px;
-		height:85px;
-	}
-	.freespace {
-		font-size:smaller;
-	}
-
-    .daub {
-        background-repeat: no-repeat;
-    }
-    .daubPos1 {
-        background-position: 8px 8px;
-    }
-    .daubPos2 {
-        background-position: 3px 8px;
-    }
-    .daubPos3 {
-        background-position: 8px 3px;
-    }
-    .daubPos4 {
-        background-position: 12px 8px;
-    }
-    .daubPos5 {
-        background-position: 8px 12px;
-    }
-    .daubImg1 {
-        background-image: url(images/daub1.png);
-    }
-    .daubImg2 {
-        background-image: url(images/daub2.png);
-    }
-    .daubImg3 {
-        background-image: url(images/daub3.png);
-    }
-    .daubImg4 {
-        background-image: url(images/daub4.png);
-    }
-    .daubImg5 {
-        background-image: url(images/daub5.png);
-    }
-
-    @media print {
-        .instructions {
-            display: none;
-        }
-    }
-</style>
+<link rel="stylesheet" href="/bingo/style.css">
 <style type="text/css" media="print">
 	h1, form, #footer { display:none }
 </style>
@@ -406,8 +318,14 @@ $(document).ready(bingoGenerator.checkQS);
         <li role="menu-item">
         <a href="/bingo/stats.html">Stats</a>
         </li>
-      </ul>
-    </header>
+        <li role="menu-item">
+        Archive 2024:&nbsp;
+        <a href="/bingo/2024/activities.html">Activities</a>
+        &nbsp;
+        <a href="/bingo/2024/stats.html">Stats</a>
+        </li>
+    </ul>
+</header>
     <main>
       <div class="instructions">
         <h1>Discord's 12 Days of Running BINGO</h1>
