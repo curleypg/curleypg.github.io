@@ -88,8 +88,8 @@
             <tr>
               <th>Activity date</th>
               <th>Challenge completed</th>
-              <th>Additional Info</th>
               <th>Approved</th>
+              <th>Photography Challenge</th>
               <th>Event Coordinator Notes</th>
             </tr>
           </thead>
@@ -138,20 +138,13 @@
       let row = document.createElement('tr')
       let datetimeEle = document.createElement('td')
       let challengeEle = document.createElement('td')
-      let additionalEle = document.createElement('td')
       let approvedEle = document.createElement('td')
+      let photographyEle = document.createElement('td')
       let ecNotesEle = document.createElement('td')
 
 
       datetimeEle.innerHTML = activity['Activity date']
       challengeEle.innerHTML = activity['Challenge completed']
-
-      if (activity['Challenge completed'] === 'Cross-training activity') {
-        additionalEle.innerHTML = activity['Additional information.']
-      }
-      else {
-        additionalEle.innerHTML = ''
-      }
 
       if (activity['Approved'] === 'y') {
         approvedEle.innerHTML = '✅'
@@ -161,10 +154,16 @@
         row.setAttribute('class', 'unapproved')
       }
 
+      if (activity['Approved'] === 'y' && activity['Photography'] === 'y') {
+        photographyEle.innerHTML = '✅'
+      } else {
+        photographyEle.innerHTML = ''
+      }
+
       row.appendChild(datetimeEle)
       row.appendChild(challengeEle)
-      row.appendChild(additionalEle)
       row.appendChild(approvedEle)
+      row.appendChild(photographyEle)
       row.appendChild(ecNotesEle)
 
       return row
