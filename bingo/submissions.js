@@ -670,9 +670,9 @@ const submissions = [
     "Discord username": "epiconan",
     "Challenge completed": "Act of Kindness☃ 🎁",
     "Activity date": "12/14/2025",
-    "Photography": "n",
+    "Photography": "y",
     "Approved": "y",
-    "Public comment": ""
+    "Public comment": "Found photo. Marked correctly."
   },
   {
     "Timestamp": "12/15/2025 1:20:20",
@@ -869,7 +869,7 @@ const submissions = [
     "Challenge completed": "Sunrise run☃ 🌄",
     "Activity date": "12/17/2025",
     "Photography": "y",
-    "Approved": "n",
+    "Approved": "y",
     "Public comment": ""
   },
   {
