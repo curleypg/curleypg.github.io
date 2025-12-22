@@ -870,7 +870,7 @@ const submissions = [
     "Activity date": "12/17/2025",
     "Photography": "y",
     "Approved": "y",
-    "Public comment": ""
+    "Public comment": "Marked correctly now"
   },
   {
     "Timestamp": "12/17/2025 9:16:15",
@@ -958,6 +958,429 @@ const submissions = [
     "Discord username": "mr",
     "Challenge completed": "Holiday Photography☃ 📷",
     "Activity date": "12/18/2025",
+    "Photography": "y",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2025 16:38:41",
+    "Discord username": "mr",
+    "Challenge completed": "Sunset run☃ 🌇",
+    "Activity date": "12/18/2025",
+    "Photography": "y",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2025 16:52:15",
+    "Discord username": "aisje",
+    "Challenge completed": "Strava Segment Top 3 Personal Effort 🏅",
+    "Activity date": "12/19/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2025 17:03:58",
+    "Discord username": "panera_bread_fan",
+    "Challenge completed": "Strava Segment Top 10 🔟",
+    "Activity date": "12/18/2025",
+    "Photography": "y",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2025 17:48:27",
+    "Discord username": "Shasta",
+    "Challenge completed": "Treadmill run",
+    "Activity date": "12/17/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2025 18:51:18",
+    "Discord username": "corndeezy",
+    "Challenge completed": "Activity Selfie!!☃ 🤳",
+    "Activity date": "12/18/2025",
+    "Photography": "y",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2025 20:10:33",
+    "Discord username": "TF",
+    "Challenge completed": "Counterclockwise loop",
+    "Activity date": "12/18/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2025 21:13:34",
+    "Discord username": "epiconan",
+    "Challenge completed": "Run with someone☃ 👫",
+    "Activity date": "12/18/2025",
+    "Photography": "y",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2025 21:15:33",
+    "Discord username": "Nomz",
+    "Challenge completed": "100m elevation gain ⛰️",
+    "Activity date": "12/18/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2025 21:16:08",
+    "Discord username": "Nomz",
+    "Challenge completed": "Sunset run☃ 🌇",
+    "Activity date": "12/18/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/18/2025 22:20:38",
+    "Discord username": "Shasta",
+    "Challenge completed": "At least 60min",
+    "Activity date": "12/18/2025",
+    "Photography": "n",
+    "Approved": "n",
+    "Public comment": "submitted same activity twice"
+  },
+  {
+    "Timestamp": "12/19/2025 8:13:17",
+    "Discord username": "jonahisfine",
+    "Challenge completed": "Cross a bridge 🌉",
+    "Activity date": "12/17/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2025 8:13:43",
+    "Discord username": "jonahisfine",
+    "Challenge completed": "Out-and-back",
+    "Activity date": "12/19/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2025 9:47:12",
+    "Discord username": "Ethan740_",
+    "Challenge completed": "Sunrise run☃ 🌄",
+    "Activity date": "12/19/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2025 9:48:16",
+    "Discord username": "Ethan740_",
+    "Challenge completed": "Run with someone☃ 👫",
+    "Activity date": "12/19/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2025 13:21:34",
+    "Discord username": "corndeezy",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Activity date": "12/19/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2025 17:49:48",
+    "Discord username": "epiconan",
+    "Challenge completed": "Run through a park☃ 🛝",
+    "Activity date": "12/19/2025",
+    "Photography": "y",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2025 17:53:40",
+    "Discord username": "epiconan",
+    "Challenge completed": "Holiday Photography☃ 📷",
+    "Activity date": "12/19/2025",
+    "Photography": "y",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2025 18:30:56",
+    "Discord username": "Shasta",
+    "Challenge completed": "Clockwise loop",
+    "Activity date": "12/19/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2025 21:12:18",
+    "Discord username": "panera_bread_fan",
+    "Challenge completed": "Plogging☃ 🚮",
+    "Activity date": "12/19/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2025 22:38:07",
+    "Discord username": "aisje",
+    "Challenge completed": "Run with someone☃ 👫",
+    "Activity date": "12/20/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/19/2025 22:39:00",
+    "Discord username": "aisje",
+    "Challenge completed": "At least 5km",
+    "Activity date": "12/20/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2025 3:30:00",
+    "Discord username": "Ren",
+    "Challenge completed": "Point-to-point",
+    "Activity date": "12/20/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2025 8:43:10",
+    "Discord username": "mr",
+    "Challenge completed": "At least 5km",
+    "Activity date": "12/20/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2025 13:10:27",
+    "Discord username": "corndeezy",
+    "Challenge completed": "At least 90min",
+    "Activity date": "12/20/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2025 13:28:17",
+    "Discord username": "ossgeek",
+    "Challenge completed": "Hill Repeats",
+    "Activity date": "12/20/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2025 16:08:06",
+    "Discord username": "panera_bread_fan",
+    "Challenge completed": "Act of Kindness☃ 🎁",
+    "Activity date": "12/20/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2025 21:03:37",
+    "Discord username": "Ren",
+    "Challenge completed": "At least 120min",
+    "Activity date": "12/21/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/20/2025 21:16:02",
+    "Discord username": "epiconan",
+    "Challenge completed": "Sunset run☃ 🌇",
+    "Activity date": "12/20/2025",
+    "Photography": "y",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 9:22:57",
+    "Discord username": "mr",
+    "Challenge completed": "At least 90min",
+    "Activity date": "12/21/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 11:18:59",
+    "Discord username": "epiconan",
+    "Challenge completed": "Sunrise run☃ 🌄",
+    "Activity date": "12/21/2025",
+    "Photography": "y",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 12:09:50",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Point-to-point",
+    "Activity date": "12/20/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 12:11:06",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Take a Segment Crown 🥇",
+    "Activity date": "12/18/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 12:15:08",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Tempo workout",
+    "Activity date": "12/18/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 12:16:44",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Sunset run☃ 🌇",
+    "Activity date": "12/14/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 12:17:41",
+    "Discord username": "cheese4all",
+    "Challenge completed": "A single loop at least 10 times 🔄",
+    "Activity date": "12/16/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 12:18:20",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Out-and-back",
+    "Activity date": "12/10/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 12:19:03",
+    "Discord username": "cheese4all",
+    "Challenge completed": "At least 60min",
+    "Activity date": "12/21/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 12:20:50",
+    "Discord username": "cheese4all",
+    "Challenge completed": "Cross a body of water 🌊",
+    "Activity date": "12/17/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 12:21:32",
+    "Discord username": "cheese4all",
+    "Challenge completed": "At least 30min",
+    "Activity date": "12/11/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 12:22:59",
+    "Discord username": "cheese4all",
+    "Challenge completed": "At least #counting",
+    "Activity date": "12/19/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 12:24:13",
+    "Discord username": "corndeezy",
+    "Challenge completed": "Strava/GPS art 🎨",
+    "Activity date": "12/21/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 12:24:28",
+    "Discord username": "cheese4all",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Activity date": "12/13/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 16:04:04",
+    "Discord username": "panera_bread_fan",
+    "Challenge completed": "Point-to-point",
+    "Activity date": "12/21/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 18:25:52",
+    "Discord username": "Shasta",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Activity date": "12/21/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 18:27:22",
+    "Discord username": "Shasta",
+    "Challenge completed": "Counterclockwise loop",
+    "Activity date": "12/21/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 19:58:00",
+    "Discord username": "epiconan",
+    "Challenge completed": "Costume Dash☃🎅",
+    "Activity date": "12/21/2025",
+    "Photography": "y",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 20:01:43",
+    "Discord username": "epiconan",
+    "Challenge completed": "Trail run☃ 🏞️",
+    "Activity date": "12/21/2025",
     "Photography": "y",
     "Approved": "y",
     "Public comment": ""
