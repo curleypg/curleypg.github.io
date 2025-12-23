@@ -1384,5 +1384,104 @@ const submissions = [
     "Photography": "y",
     "Approved": "y",
     "Public comment": ""
+  },
+  {
+    "Timestamp": "12/21/2025 20:47:34",
+    "Discord username": "Shasta",
+    "Challenge completed": "At least 60min",
+    "Activity date": "12/18/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/22/2025 2:06:29",
+    "Discord username": "jonahisfine",
+    "Challenge completed": "Run through a park☃ 🛝",
+    "Activity date": "12/20/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/22/2025 12:49:52",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Sunset run☃ 🌇",
+    "Activity date": "12/20/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/22/2025 12:51:27",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Run with someone☃ 👫",
+    "Activity date": "12/12/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/22/2025 12:52:22",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Holiday Photography☃ 📷",
+    "Activity date": "12/17/2025",
+    "Photography": "y",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/22/2025 12:55:19",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Counterclockwise loop",
+    "Activity date": "12/20/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/22/2025 12:56:22",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "50m elevation gain ⛰️",
+    "Activity date": "12/19/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/22/2025 12:57:39",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "100m elevation gain ⛰️",
+    "Activity date": "12/14/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/22/2025 12:58:47",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Out-and-back",
+    "Activity date": "12/10/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/22/2025 12:59:47",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Run through a park☃ 🛝",
+    "Activity date": "12/14/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
+  },
+  {
+    "Timestamp": "12/22/2025 13:02:33",
+    "Discord username": "huntsmaster",
+    "Challenge completed": "Strava Segment Top 3 Personal Effort 🏅",
+    "Activity date": "12/12/2025",
+    "Photography": "n",
+    "Approved": "y",
+    "Public comment": ""
   }
 ]
